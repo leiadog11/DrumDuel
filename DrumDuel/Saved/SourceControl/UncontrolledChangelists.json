@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/nickc/Desktop/DrumDuel/DrumDuel/DrumDuel/Content/Blueprints/Beat.uasset",
+				"C:/Users/nickc/Desktop/DrumDuel/DrumDuel/DrumDuel/Plugins/SerialCOM_5_UE542/SerialCOM/Content/UE_BLUEPRINTS/BP_SerialCom_v4_UE510.uasset",
+				"C:/Users/nickc/Desktop/DrumDuel/DrumDuel/DrumDuel/Content/__ExternalActors__/Duel/A/VT/X3GDMLN8P334U5WWHBS5RI.uasset",
+				"C:/Users/nickc/Desktop/DrumDuel/DrumDuel/DrumDuel/Content/Blueprints/PlayerInput.uasset",
 				"C:/Users/gimmp/Documents/GitHub/DrumDuel/DrumDuel/Content/Blueprints/PlayerInput.uasset",
 				"C:/Users/gimmp/Documents/GitHub/DrumDuel/DrumDuel/Content/__ExternalActors__/Duel/E/RI/K55EYTQ676RDEQ9BIARL9U.uasset",
 				"C:/Users/gimmp/Documents/GitHub/DrumDuel/DrumDuel/Content/__ExternalActors__/Duel/E/CK/RLCJ0ODEYIPIEP6I4SZ61A.uasset",
