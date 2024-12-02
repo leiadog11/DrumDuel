@@ -1,0 +1,885 @@
+[+] Containers:
+ |- [+] Container: /Game/1P
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:0295F529418D4C2020DCE3AB2D885006 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1939477060 Label:Cube5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4177.160 Y=-277.917 Z=-580.000), Max=(X=8502.840 Y=-142.083 Z=2420.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:037858414826B4B461381BBDF7016EFF BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284985334 Label:Drum_Triangle2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5128.395 Y=-2620.887 Z=285.498), Max=(X=5321.175 Y=-2429.912 Z=350.312) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:04265C6E46ACE037BC2998B09D137A4F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000be6addd1 Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=50400.000 Z=209.375), Max=(X=0.000 Y=75600.000 Z=5080.469) Runtime:IsValid=true, Min=(X=-25200.000 Y=50400.000 Z=189.062), Max=(X=0.000 Y=75600.000 Z=5252.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:04991CA94B62A3D005BBCDA96861F827 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e96adb9f Label:HLOD0_Instancing/OpenWorld_MainGrid_1_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=25200.000 Z=0.000), Max=(X=50400.000 Y=50400.000 Z=5703.906) Runtime:IsValid=true, Min=(X=25200.000 Y=25200.000 Z=0.000), Max=(X=50400.000 Y=50400.000 Z=5888.281)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:05A2FD4D4EB3549F2B984587C838660C BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_7085C2C84A1A231D02_2109939280 Label:OnBeat SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5150.000 Y=-2780.000 Z=390.000), Max=(X=5250.000 Y=-2680.000 Z=490.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:073CB573462E5A472340108A561F45DF BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1268069540 Label:PointLight4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4264.449 Y=-2035.551 Z=-505.551), Max=(X=5315.551 Y=-984.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- Guid:0C3FD35242A35B09DEA36EA0E062C55A BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a37177dd Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=-25200.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) Runtime:IsValid=true, Min=(X=-25200.000 Y=-25200.000 Z=-100.000), Max=(X=0.000 Y=0.000 Z=100.000)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:0C73701F4FD9D11EFB436983B03C8D65 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000014fcb629 Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=-75600.000 Z=5260.156), Max=(X=-50400.000 Y=-50400.000 Z=7752.344) Runtime:IsValid=true, Min=(X=-75600.000 Y=-75600.000 Z=5113.281), Max=(X=-50400.000 Y=-50400.000 Z=7863.281)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:0CCF58F74AD2B1B4847A16B2414EB3D8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6102F02_1898246945 Label:ConductorPodium_Cylinder_001 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4885.663 Y=-2207.120 Z=-31.253), Max=(X=5128.741 Y=-1957.817 Z=480.300) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Podium FolderGuid:248D56BC43EDC2B6324EDE87C3AD5954
+ |   |   |- Guid:0E1DAE5F43C31C859C1E1A8B4E3A75E9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000653a6479 Label:HLOD0_Instancing/OpenWorld_MainGrid_2_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=50400.000 Z=5661.719), Max=(X=75600.000 Y=75600.000 Z=10603.906) Runtime:IsValid=true, Min=(X=50400.000 Y=50400.000 Z=5341.406), Max=(X=75600.000 Y=75600.000 Z=10853.906)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:0FE356D044194BE098C4BCBF6F5CDF92 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- Guid:106042DC44454CE2001023B196E6AB3E BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284984333 Label:Drum_DrumAcc8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5258.339 Y=-2719.996 Z=148.278), Max=(X=5473.584 Y=-2504.746 Z=230.597) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:13640E764059E491BC4FE9B7A3480B53 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1557573354 Label:Cube6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5593.360 Y=-1917.500 Z=-520.015), Max=(X=8446.640 Y=-1442.500 Z=600.015) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:1711705C4EE8E1869F88A5B66BCE0465 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000001c4e2f77 Label:HLOD0_Instancing/OpenWorld_MainGrid_1_-1_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=25200.000 Y=-25200.000 Z=0.000), Max=(X=50400.000 Y=0.000 Z=3310.156) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:17EFDF6A45B163BE0AF05BA2C1913FE1 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000b65f63ff Label:HLOD0_Instancing/OpenWorld_MainGrid_1_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=-100800.000 Z=4986.719), Max=(X=50400.000 Y=-75600.000 Z=8775.781) Runtime:IsValid=true, Min=(X=25200.000 Y=-100800.000 Z=4950.781), Max=(X=50400.000 Y=-75600.000 Z=8967.969)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:1BA9A1A944D73CBB3A5D50ADB3134477 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a69d93d0 Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=25200.000 Z=0.000) Runtime:IsValid=true, Min=(X=-25200.000 Y=0.000 Z=-100.000), Max=(X=0.000 Y=25200.000 Z=100.000)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:2339E84C4479F32CB4B02BAE69E10E6A BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000675ef2fd Label:HLOD0_Instancing/OpenWorld_MainGrid_2_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=-25200.000 Z=892.969), Max=(X=75600.000 Y=0.000 Z=9125.781) Runtime:IsValid=true, Min=(X=50400.000 Y=-25200.000 Z=870.312), Max=(X=75600.000 Y=0.000 Z=9125.781)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:23C593574429B34B87E5BC99DAFB0774 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a4bc834b Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=-75600.000 Z=142.188), Max=(X=0.000 Y=-50400.000 Z=8386.719) Runtime:IsValid=true, Min=(X=-25200.000 Y=-75600.000 Z=142.188), Max=(X=0.000 Y=-50400.000 Z=8805.469)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:248C35A44FEB916680ADDE9EAA83B965 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000f2adc785 Label:HLOD0_Instancing/OpenWorld_MainGrid_1_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=50400.000 Z=1202.344), Max=(X=50400.000 Y=75600.000 Z=8425.781) Runtime:IsValid=true, Min=(X=25200.000 Y=50400.000 Z=1202.344), Max=(X=50400.000 Y=75600.000 Z=8677.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:2580BBD342E9A46ADEB0B69A2A38F9D5 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000025ab023 Label:HLOD0_Instancing/OpenWorld_MainGrid_1_-3_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=25200.000 Y=-75600.000 Z=1064.062), Max=(X=50400.000 Y=-50400.000 Z=6511.719) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:279974554CB8E9BC8D179C93075DA09D BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000d58aa934 Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=25200.000 Z=0.000), Max=(X=0.000 Y=50400.000 Z=1284.375) Runtime:IsValid=true, Min=(X=-25200.000 Y=25200.000 Z=-0.781), Max=(X=0.000 Y=50400.000 Z=1284.375)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:2997A7F6476234493FE0998447E455A4 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000009f421c4b Label:HLOD0_Instancing/OpenWorld_MainGrid_1_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=-50400.000 Z=0.781), Max=(X=50400.000 Y=-25200.000 Z=6275.781) Runtime:IsValid=true, Min=(X=25200.000 Y=-50400.000 Z=0.781), Max=(X=50400.000 Y=-25200.000 Z=6920.312)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:2A02E8F944734EF9917F989FDB22DA62 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000000abadc8a Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=-75600.000 Z=5661.719), Max=(X=-75600.000 Y=-50400.000 Z=8552.344) Runtime:IsValid=true, Min=(X=-100800.000 Y=-75600.000 Z=5449.219), Max=(X=-75600.000 Y=-50400.000 Z=8761.719)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:2DC631FA449EE1138C13EFBF84029F1D BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6102F02_1865762944 Label:ConductorPodium_Cylinder SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5303.786 Y=-1883.359 Z=58.601), Max=(X=5534.863 Y=-1615.782 Z=386.035) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Podium FolderGuid:248D56BC43EDC2B6324EDE87C3AD5954
+ |   |   |- Guid:2F348E334094135DDE754395176F5C58 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000dde63563 Label:HLOD0_Instancing/OpenWorld_MainGrid_1_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=75600.000 Z=2653.906), Max=(X=50400.000 Y=100800.000 Z=9789.844) Runtime:IsValid=true, Min=(X=25200.000 Y=75600.000 Z=2653.906), Max=(X=50400.000 Y=100800.000 Z=9796.094)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:2F528AC547876BCC7C834F9C3F0EF216 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000c1bf9f53 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=0.000 Z=0.000), Max=(X=-25200.000 Y=25200.000 Z=131.250) Runtime:IsValid=true, Min=(X=-50400.000 Y=0.000 Z=0.000), Max=(X=-25200.000 Y=25200.000 Z=164.844)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:2FD0D1A04038219FB3FD60A89FDFB7F3 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_047C16A8CCE6082A02_1147169255 Label:SpotLight3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3548.221 Y=-13228.221 Z=-20516.442), Max=(X=19228.221 Y=9548.221 Z=2260.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- Guid:30EE0BB649BED9B4EAD4E3BC88D393F2 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000bb550923 Label:HLOD0_Instancing/OpenWorld_MainGrid_2_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=0.000 Z=893.750), Max=(X=75600.000 Y=25200.000 Z=7041.406) Runtime:IsValid=true, Min=(X=50400.000 Y=0.000 Z=893.750), Max=(X=75600.000 Y=25200.000 Z=7369.531)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:32E974A64937C7DFCC92E6BC6748E03F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000595af4d3 Label:HLOD0_Instancing/OpenWorld_MainGrid_2_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=25200.000 Z=2267.188), Max=(X=75600.000 Y=50400.000 Z=9232.031) Runtime:IsValid=true, Min=(X=50400.000 Y=25200.000 Z=2264.062), Max=(X=75600.000 Y=50400.000 Z=9232.031)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:34BDEAE442400063A4A57BAEE9AC8A99 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000007447602 Label:HLOD0_Instancing/OpenWorld_MainGrid_3_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=75600.000 Z=8967.969), Max=(X=100800.000 Y=100800.000 Z=12530.469) Runtime:IsValid=true, Min=(X=75600.000 Y=75600.000 Z=8727.344), Max=(X=100800.000 Y=100800.000 Z=12871.094)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:34D376224CDC6ED4AF18BABAE5774FD9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a689a9ea Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=-50400.000 Z=1038.281), Max=(X=-50400.000 Y=-25200.000 Z=8749.219) Runtime:IsValid=true, Min=(X=-75600.000 Y=-50400.000 Z=1038.281), Max=(X=-50400.000 Y=-25200.000 Z=8925.781)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:37E72AEB42A5E3AEB5806EB783E53A28 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284982328 Label:Drum_DrumBase7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4977.059 Y=-3054.852 Z=101.397), Max=(X=5188.384 Y=-2843.527 Z=278.603) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:380E598A49A0D25D300AF2AFF0C981EC BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_2097694358 Label:Cube12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4100.000 Y=-4412.500 Z=-430.000), Max=(X=4200.000 Y=-87.500 Z=2570.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:40E8B5E44F3DE235B31DAB9758287C47 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_A85E45CFE40401D200_1470380759 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:45AD154A450E7EBDAE7095A001901E15 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e7e7c686 Label:HLOD0_Instancing/OpenWorld_MainGrid_3_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=50400.000 Z=9232.031), Max=(X=100800.000 Y=75600.000 Z=14719.531) Runtime:IsValid=true, Min=(X=75600.000 Y=50400.000 Z=9205.469), Max=(X=100800.000 Y=75600.000 Z=14989.844)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:492241CE4FDD768DF69FADB5CF503CCC BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284983331 Label:Drum_Stand3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5259.911 Y=-2682.678 Z=-2.491), Max=(X=5433.845 Y=-2508.742 Z=177.749) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:4AADEE0441F7D426F9424BACEE29467C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000040c4c889 Label:HLOD0_Instancing/OpenWorld_MainGrid_0_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=25200.000 Z=0.000), Max=(X=25200.000 Y=50400.000 Z=1202.344) Runtime:IsValid=true, Min=(X=0.000 Y=25200.000 Z=-0.781), Max=(X=25200.000 Y=50400.000 Z=1202.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:4CC1AA0A4EDB517EADE54BADB2C72C26 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000001aad9091 Label:HLOD0_Instancing/OpenWorld_MainGrid_2_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=-75600.000 Z=5700.781), Max=(X=75600.000 Y=-50400.000 Z=10830.469) Runtime:IsValid=true, Min=(X=50400.000 Y=-75600.000 Z=5639.844), Max=(X=75600.000 Y=-50400.000 Z=10830.469)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:51C79B3C4CB7110A7BAF2BB705A09CCF BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1794763055 Label:Cylinder SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4130.000 Y=-3410.000 Z=-110.000), Max=(X=6130.000 Y=-1410.000 Z=-10.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:51DCFDD24E45EC7CD3ADD8B372419CA8 BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_F02F74551BF5599B01_1153002503 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=4548.835 Y=-2407.351 Z=145.617), Max=(X=4628.835 Y=-2327.351 Z=329.617) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:532CAF4E40E03E68DC0E87AB98E84C66 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284977321 Label:Drum_Cylinder2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5035.135 Y=-2692.911 Z=264.182), Max=(X=5091.632 Y=-2629.311 Z=382.701) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:5343FCD44E47E6836972319797ED1F56 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000003183c5a3 Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=-25200.000 Z=28.906), Max=(X=-50400.000 Y=0.000 Z=6477.344) Runtime:IsValid=true, Min=(X=-75600.000 Y=-25200.000 Z=17.188), Max=(X=-50400.000 Y=0.000 Z=6477.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:55A4044944B4D4840EE4FA9D095EE323 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284981327 Label:Drum_DrumAcc6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5038.989 Y=-2674.676 Z=330.294), Max=(X=5193.053 Y=-2522.309 Z=428.742) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:572314514CB950B5DA4574BEE1143C4E BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a639b1e9 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=-100800.000 Z=6632.031), Max=(X=-25200.000 Y=-75600.000 Z=11791.406) Runtime:IsValid=true, Min=(X=-50400.000 Y=-100800.000 Z=6572.656), Max=(X=-25200.000 Y=-75600.000 Z=11941.406)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:5AC20F8D4B8119DC06DB5087363A2393 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BF2902_1209353420 Label:Cube8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4200.000 Y=-4502.500 Z=2280.000), Max=(X=8300.000 Y=-177.500 Z=2380.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:5D5281254BE18E50FA65EFBC4ED14A2A BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000008cf7d23e Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_3_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-25200.000 Y=75600.000 Z=3127.344), Max=(X=0.000 Y=100800.000 Z=10647.656) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:5F6DC1094E76CC43135F0293F27698A5 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284979324 Label:Drum_DrumBase5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4930.025 Y=-2804.334 Z=329.423), Max=(X=5083.270 Y=-2653.079 Z=430.577) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:66C3F9DF437687DD4728F88280BDE07D BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1638400.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1638400.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:67C01C3E407BB57E17B677A5224B12A0 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284976320 Label:Drum_DrumAcc4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4910.120 Y=-2835.312 Z=-3.708), Max=(X=5232.681 Y=-2495.375 Z=301.820) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:6FEB4F354C72E9C9ADD8DC96038050BA BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:703F6D184BB76237E82DD8B8406A470D BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ea238fdb Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=75600.000 Z=6655.469), Max=(X=-50400.000 Y=100800.000 Z=12411.719) Runtime:IsValid=true, Min=(X=-75600.000 Y=75600.000 Z=6619.531), Max=(X=-50400.000 Y=100800.000 Z=13197.656)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:72AA0D3742217665C5E6628D76EE66F8 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1259733538 Label:PointLight2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4824.449 Y=-3845.551 Z=-505.551), Max=(X=5875.551 Y=-2794.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- Guid:74AD9AD3443C2A56AA03A689C63BCBD8 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000068ccf59d Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=-75600.000 Z=1993.750), Max=(X=-25200.000 Y=-50400.000 Z=8386.719) Runtime:IsValid=true, Min=(X=-50400.000 Y=-75600.000 Z=1993.750), Max=(X=-25200.000 Y=-50400.000 Z=8566.406)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:750FDC8844DDCB96C9305AA936653435 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1282090543 Label:PointLight6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5334.449 Y=-2555.551 Z=-505.551), Max=(X=6385.551 Y=-1504.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- Guid:754D81D9449786DA11CB52B8A7141937 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1262099539 Label:PointLight3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5334.449 Y=-3265.551 Z=-505.551), Max=(X=6385.551 Y=-2214.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- Guid:76D7630C49305422069B50B5617F75DD BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000000f202552 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=75600.000 Z=5080.469), Max=(X=-25200.000 Y=100800.000 Z=13058.594) Runtime:IsValid=true, Min=(X=-50400.000 Y=75600.000 Z=5080.469), Max=(X=-25200.000 Y=100800.000 Z=13166.406)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:77FE443E43F89859C253D09DD40CC5E3 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1545679353 Label:Cube3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5593.360 Y=-3177.500 Z=-520.015), Max=(X=8446.640 Y=-2702.500 Z=600.015) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:796AADF14CFD731EC880BDA13326E346 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ac2bf045 Label:HLOD0_Instancing/OpenWorld_MainGrid_2_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=-100800.000 Z=5958.594), Max=(X=75600.000 Y=-75600.000 Z=10986.719) Runtime:IsValid=true, Min=(X=50400.000 Y=-100800.000 Z=5939.844), Max=(X=75600.000 Y=-75600.000 Z=10986.719)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:7D9B3C7B4049B0A690D3C4BAA4126438 BaseClass:/Game/Blueprints/MusicHandler.MusicHandler_C NativeClass:/Script/Engine.Actor Name:MusicHandler_C_UAID_60189575E8DA923002_2082124879 Label:MusicHandler SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5186.102 Y=-2366.666 Z=-10.000), Max=(X=5186.102 Y=-2366.666 Z=-10.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:7DC626804910C19C653209835E035769 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000de0ce2c8 Label:HLOD0_Instancing/OpenWorld_MainGrid_0_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=25200.000 Y=25200.000 Z=0.000) Runtime:IsValid=true, Min=(X=0.000 Y=0.000 Z=-100.000), Max=(X=25200.000 Y=25200.000 Z=100.000)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:818A62F74A215FC623FBC49AB12B672C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000092f62c1e Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=25200.000 Z=131.250), Max=(X=-50400.000 Y=50400.000 Z=6824.219) Runtime:IsValid=true, Min=(X=-75600.000 Y=25200.000 Z=131.250), Max=(X=-50400.000 Y=50400.000 Z=8019.531)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:83723B7E4C5FB8449BC9D6B0C31BA3B2 BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:83CB76254D67CA83BD90CEBAA5CB2F10 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284978323 Label:Drum_Triangle SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4838.630 Y=-2936.993 Z=364.801), Max=(X=5030.119 Y=-2743.773 Z=429.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:84CC61AC46E7F801C4E0F1A79F9964F3 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000008b5644b9 Label:HLOD0_Instancing/OpenWorld_MainGrid_3_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=-50400.000 Z=9125.781), Max=(X=100800.000 Y=-25200.000 Z=12572.656) Runtime:IsValid=true, Min=(X=75600.000 Y=-50400.000 Z=9125.781), Max=(X=100800.000 Y=-25200.000 Z=12972.656)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:8569825242C54083549F91AA13889298 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ea2f4463 Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=-100800.000 Z=6683.594), Max=(X=-50400.000 Y=-75600.000 Z=12138.281) Runtime:IsValid=true, Min=(X=-75600.000 Y=-100800.000 Z=6608.594), Max=(X=-50400.000 Y=-75600.000 Z=12658.594)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:8914968543B484FCE95B398224682748 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000de8c0236 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=50400.000 Z=1284.375), Max=(X=-25200.000 Y=75600.000 Z=7350.781) Runtime:IsValid=true, Min=(X=-50400.000 Y=50400.000 Z=1284.375), Max=(X=-25200.000 Y=75600.000 Z=7450.781)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:897D50054EDF0A599E82ACA2D8362F7F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000003948efd7 Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=0.000 Z=900.781), Max=(X=-75600.000 Y=25200.000 Z=9271.094) Runtime:IsValid=true, Min=(X=-100800.000 Y=0.000 Z=847.656), Max=(X=-75600.000 Y=25200.000 Z=9271.094)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:8A38E1394FFBB056D2E3D4A7C10AC8C0 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1917247059 Label:Cube4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4177.160 Y=-4467.917 Z=-580.000), Max=(X=8502.840 Y=-4332.083 Z=2420.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:8BC8272F479457AAB05D4C9A6BCF3FB6 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284983330 Label:Drum_Stand2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4848.089 Y=-2924.551 Z=-8.105), Max=(X=5022.024 Y=-2750.616 Z=397.434) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:8F209B4D405836925AC2938705BDBD13 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1277953542 Label:PointLight5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4744.449 Y=-2035.551 Z=-505.551), Max=(X=5795.551 Y=-984.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- Guid:980FA7524C6275366C3DF99965C6B8BE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284974319 Label:Drum_DrumBase4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4907.867 Y=-2838.049 Z=0.000), Max=(X=5236.450 Y=-2494.331 Z=300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:9B4749DE4FBE09274303719DB146B3F7 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000004914b23f Label:HLOD0_Instancing/OpenWorld_MainGrid_2_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=75600.000 Z=7786.719), Max=(X=75600.000 Y=100800.000 Z=11655.469) Runtime:IsValid=true, Min=(X=50400.000 Y=75600.000 Z=7785.156), Max=(X=75600.000 Y=100800.000 Z=11791.406)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:9BFD912F425D9AE01100AA93F8E57B39 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000004e4e8cb1 Label:HLOD0_Instancing/OpenWorld_MainGrid_3_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=25200.000 Z=5872.656), Max=(X=100800.000 Y=50400.000 Z=13544.531) Runtime:IsValid=true, Min=(X=75600.000 Y=25200.000 Z=5872.656), Max=(X=100800.000 Y=50400.000 Z=13596.094)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:9C76EBA846C44B4F54D4438F160C5F26 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ef89df56 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=25200.000 Z=0.000), Max=(X=-25200.000 Y=50400.000 Z=3455.469) Runtime:IsValid=true, Min=(X=-50400.000 Y=25200.000 Z=0.000), Max=(X=-25200.000 Y=50400.000 Z=3609.375)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:9D86A76E4AB3A3ECCAD468B896028289 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000570d97fa Label:HLOD0_Instancing/OpenWorld_MainGrid_0_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=-25200.000 Z=0.000), Max=(X=25200.000 Y=0.000 Z=0.781) Runtime:IsValid=true, Min=(X=0.000 Y=-25200.000 Z=-100.000), Max=(X=25200.000 Y=0.000 Z=100.000)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:A28F5E0C414833DF06C344BD3C6661EF BaseClass:/Game/Blueprints/Drum_ProgressBar.Drum_ProgressBar_C NativeClass:/Script/Engine.Actor Name:Drum_ProgressBar_C_UAID_047C16A8CCE6D52C02_1888273447 Label:Drum_ProgressBar_R SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4735.256 Y=-2810.182 Z=0.000), Max=(X=5084.024 Y=-2449.123 Z=500.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:UI FolderGuid:222F110E4DFDA7B16344C487CA9438ED
+ |   |   |- Guid:A4BC3AA749187B0090BB86AF3126C56B BaseClass:/SERIALCOM/UE_BLUEPRINTS/BP_SerialCom_v4_UE510.BP_SerialCom_v4_UE510_C NativeClass:/Script/Engine.Actor Name:BP_SerialCom_v4_UE510_C_UAID_60189575E8DAE03402_2048220832 Label:BP_SerialCom_v4_UE510 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3950.000 Y=-3550.000 Z=10.000), Max=(X=3950.000 Y=-3060.000 Z=62.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:A7EB5C3D468272AD017F5EBDA56498A8 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000055c0ccaa Label:HLOD0_Instancing/OpenWorld_MainGrid_0_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=-75600.000 Z=110.156), Max=(X=25200.000 Y=-50400.000 Z=6735.156) Runtime:IsValid=true, Min=(X=0.000 Y=-75600.000 Z=106.250), Max=(X=25200.000 Y=-50400.000 Z=6735.156)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:AA30C0634C8D61321C6912B3DFCDC4E6 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284980326 Label:Drum_DrumBase6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5039.299 Y=-2674.107 Z=329.423), Max=(X=5192.544 Y=-2522.851 Z=430.577) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:AB0338C44EDF1573865BE595E29D110F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000004e80c166 Label:HLOD0_Instancing/OpenWorld_MainGrid_3_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=-100800.000 Z=7657.031), Max=(X=100800.000 Y=-75600.000 Z=13369.531) Runtime:IsValid=true, Min=(X=75600.000 Y=-100800.000 Z=7522.656), Max=(X=100800.000 Y=-75600.000 Z=13553.906)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:AB94BCE44D6849E6706B35BCC893CDEA BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_UAID_A85E45CFE40401D200_1470381760 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:ABA807A1444C973A35E5E8A7FC14A704 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000032084f09 Label:HLOD0_Instancing/OpenWorld_MainGrid_0_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=50400.000 Z=101.562), Max=(X=25200.000 Y=75600.000 Z=3269.531) Runtime:IsValid=true, Min=(X=0.000 Y=50400.000 Z=100.000), Max=(X=25200.000 Y=75600.000 Z=3294.531)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:B285AC9042CD50C720D0AEA0101CFA49 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_047C16A8CCE6AE2A02_1195517471 Label:SpotLight4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3548.221 Y=-14718.221 Z=-20426.442), Max=(X=19228.221 Y=8058.221 Z=2350.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- Guid:B55232CC4E15F039B09B6CAA57E9393B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284978322 Label:Drum_Stand SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4977.084 Y=-3019.737 Z=-2.491), Max=(X=5151.019 Y=-2845.801 Z=177.749) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:B7D8DCF64BD2C3F97D7447AA6B4DFEDB BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284982329 Label:Drum_DrumAcc7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4975.513 Y=-3057.056 Z=106.557), Max=(X=5190.758 Y=-2841.806 Z=271.193) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:BD9A46884FD3348E3F2789AB5619B270 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_2044078356 Label:Cube10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7282.422 Y=-5727.500 Z=67.364), Max=(X=7457.578 Y=-152.500 Z=212.636) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:BF97799C4BDB5AED25025FBD945821ED BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e2b76945 Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=-50400.000 Z=0.000), Max=(X=0.000 Y=-25200.000 Z=1993.750) Runtime:IsValid=true, Min=(X=-25200.000 Y=-50400.000 Z=-0.781), Max=(X=0.000 Y=-25200.000 Z=1993.750)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:C0FFE4294661072F85F91DAF41BCF35B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1965382062 Label:Cube7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4200.000 Y=-4502.500 Z=-400.000), Max=(X=8300.000 Y=-177.500 Z=-300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:C20387A448F70B129D95149A24E27928 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000006f681083 Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=0.000 Z=16.406), Max=(X=-50400.000 Y=25200.000 Z=4357.031) Runtime:IsValid=true, Min=(X=-75600.000 Y=0.000 Z=7.031), Max=(X=-50400.000 Y=25200.000 Z=4389.844)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:C3CE6C8441DCEB1B71A8EEB04C334747 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000037fedcc7 Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=50400.000 Z=3219.531), Max=(X=-50400.000 Y=75600.000 Z=9022.656) Runtime:IsValid=true, Min=(X=-75600.000 Y=50400.000 Z=3219.531), Max=(X=-50400.000 Y=75600.000 Z=9172.656)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:C430253847D61E34AC2C93B8854ECC54 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_2048456357 Label:Cube11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6592.422 Y=-5727.500 Z=-182.636), Max=(X=6767.578 Y=-152.500 Z=-37.364) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:C9EBCF104BFDC8F48C9E4495D1F4CF63 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000001bc22ef1 Label:HLOD0_Instancing/OpenWorld_MainGrid_0_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=-100800.000 Z=4666.406), Max=(X=25200.000 Y=-75600.000 Z=11261.719) Runtime:IsValid=true, Min=(X=0.000 Y=-100800.000 Z=4621.094), Max=(X=25200.000 Y=-75600.000 Z=11314.844)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:CB6ED67F4A3B325BC7D7B985CFBB7F76 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284984332 Label:Drum_DrumBase8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5259.886 Y=-2717.792 Z=145.699), Max=(X=5471.211 Y=-2506.467 Z=234.301) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:CC8A9E2B4D40489C7CA14E89E2ECE4F4 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000d31817fd Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=25200.000 Z=4167.969), Max=(X=-75600.000 Y=50400.000 Z=10260.156) Runtime:IsValid=true, Min=(X=-100800.000 Y=25200.000 Z=3900.781), Max=(X=-75600.000 Y=50400.000 Z=10327.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:CECD91E640128892CB404985C6A46D12 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_48F17F8EB3A8CA2E02_1673852623 Label:StaticMeshActor SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4200.000 Y=-3663.214 Z=279.144), Max=(X=4200.000 Y=-3663.214 Z=279.144) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:D264068C49034DECD8B9C994FD93C442 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_047C16A8CCE6FE2902_1183004536 Label:SpotLight2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4397.483 Y=-3482.517 Z=-605.033), Max=(X=5902.517 Y=-1977.483 Z=900.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- Guid:D38C96694CC84163DA07809829485BE3 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000f4da60e5 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_-1_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-50400.000 Y=-25200.000 Z=0.000), Max=(X=-25200.000 Y=0.000 Z=1038.281) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:D6135FA5422028B0A554EDB73E530CC1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284986335 Label:Drum_Stand4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5124.488 Y=-2595.152 Z=-1.860), Max=(X=5298.422 Y=-2421.217 Z=313.560) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:D6AFB52045385D3293B97C9A10B46918 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284980325 Label:Drum_DrumAcc5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4929.715 Y=-2804.903 Z=330.294), Max=(X=5083.779 Y=-2652.536 Z=428.742) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- Guid:D931AEAA46B1A1B00FB70B9FD62A7041 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1900631057 Label:Cube2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=8380.000 Y=-4452.500 Z=-580.000), Max=(X=8480.000 Y=-127.500 Z=2420.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:D9E3C8804F0145210EE5F6BBC43F44C4 BaseClass:/Game/Blueprints/Beat.Beat_C NativeClass:/Script/Engine.Actor Name:Beat_C_UAID_7085C2C84A1A261D02_1172326812 Label:Beat SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5350.000 Y=-2414.496 Z=285.078), Max=(X=5450.000 Y=-2314.496 Z=553.474) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:DAB9D92A455166394F36D88087371678 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000125f4854 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_-2_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-50400.000 Y=-50400.000 Z=0.000), Max=(X=-25200.000 Y=-25200.000 Z=5260.156) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:DB065B6446A670670773D9A069AA7ADE BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000006933a81d Label:HLOD0_Instancing/OpenWorld_MainGrid_3_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=-75600.000 Z=8610.156), Max=(X=100800.000 Y=-50400.000 Z=11753.906) Runtime:IsValid=true, Min=(X=75600.000 Y=-75600.000 Z=8610.156), Max=(X=100800.000 Y=-50400.000 Z=11772.656)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:DC54EAC84D2EDAEEF27BC7AC022F3B91 BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_A85E45CFE40401D200_1470382761 Label:DirectionalLight SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:DCF148DA40E227794F3366862D1228A7 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_047C16A8CCE6AE2A02_1201613472 Label:SpotLight5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-6388.221 Y=-13628.221 Z=-20866.442), Max=(X=16388.221 Y=9148.221 Z=1910.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- Guid:DE1F81CC4B73517A816A92B42C7857A2 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000b1822120 Label:HLOD0_Instancing/OpenWorld_MainGrid_1_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=0.000 Z=0.000), Max=(X=50400.000 Y=25200.000 Z=2267.188) Runtime:IsValid=true, Min=(X=25200.000 Y=0.000 Z=0.000), Max=(X=50400.000 Y=25200.000 Z=2303.125)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:E41E0743409B21EFEDD49FBD61FCE022 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6102F02_1774895943 Label:ConductorPodium_Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4844.315 Y=-2318.311 Z=-26.725), Max=(X=5701.295 Y=-1427.000 Z=75.677) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Podium FolderGuid:248D56BC43EDC2B6324EDE87C3AD5954
+ |   |   |- Guid:E81AB91F48D4F40D054833AA4E1DCA4E BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000b44081de Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=-100800.000 Z=6513.281), Max=(X=0.000 Y=-75600.000 Z=11442.969) Runtime:IsValid=true, Min=(X=-25200.000 Y=-100800.000 Z=6453.906), Max=(X=0.000 Y=-75600.000 Z=11442.969)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:E83277054110A273E88E16A81EEC0CFF BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000f407ec03 Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=-25200.000 Z=966.406), Max=(X=-75600.000 Y=0.000 Z=9157.031) Runtime:IsValid=true, Min=(X=-100800.000 Y=-25200.000 Z=966.406), Max=(X=-75600.000 Y=0.000 Z=9202.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:E9C270F3409263C87132C18FB1173DA2 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000042255354 Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=50400.000 Z=5602.344), Max=(X=-75600.000 Y=75600.000 Z=10936.719) Runtime:IsValid=true, Min=(X=-100800.000 Y=50400.000 Z=5450.781), Max=(X=-75600.000 Y=75600.000 Z=11130.469)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:EB7E8BAC412C6286420A1E878CF2AE24 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000006e5123fa Label:HLOD0_Instancing/OpenWorld_MainGrid_3_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=0.000 Z=5105.469), Max=(X=100800.000 Y=25200.000 Z=9200.781) Runtime:IsValid=true, Min=(X=75600.000 Y=0.000 Z=5091.406), Max=(X=100800.000 Y=25200.000 Z=9228.906)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:EBB25DAF4E04A62F492C919A28351417 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e424783a Label:HLOD0_Instancing/OpenWorld_MainGrid_3_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=-25200.000 Z=5338.281), Max=(X=100800.000 Y=0.000 Z=11575.781) Runtime:IsValid=true, Min=(X=75600.000 Y=-25200.000 Z=5280.469), Max=(X=100800.000 Y=0.000 Z=11586.719)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:EC2674B0489EACD8B8E5C6A20E85A998 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e0b604f2 Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=-50400.000 Z=5842.969), Max=(X=-75600.000 Y=-25200.000 Z=9278.906) Runtime:IsValid=true, Min=(X=-100800.000 Y=-50400.000 Z=5807.031), Max=(X=-75600.000 Y=-25200.000 Z=9500.781)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:EFF89CD54CAE03D5F9E8A3BA7E44D7D4 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1241385537 Label:PointLight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4264.449 Y=-3845.551 Z=-505.551), Max=(X=5315.551 Y=-2794.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- Guid:F0A904654C53DF0C93AC33898C3D9E5C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a1ce7b0f Label:HLOD0_Instancing/OpenWorld_MainGrid_0_-2_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=-50400.000 Z=0.000), Max=(X=25200.000 Y=-25200.000 Z=1064.062) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:F0F7E2E64BFE1EB02D08A3B1C6211099 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000009b09b3f1 Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=75600.000 Z=8503.906), Max=(X=-75600.000 Y=100800.000 Z=13463.281) Runtime:IsValid=true, Min=(X=-100800.000 Y=75600.000 Z=8263.281), Max=(X=-75600.000 Y=100800.000 Z=13605.469)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:F1FC060F4344231AD866A3934A1C3A8E BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1843742056 Label:Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5593.360 Y=-4452.500 Z=-570.015), Max=(X=8446.640 Y=-127.500 Z=550.015) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:F2FF548E4272445FBF5E4083A26DF416 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e3561d3a Label:HLOD0_Instancing/OpenWorld_MainGrid_2_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=-50400.000 Z=3310.156), Max=(X=75600.000 Y=-25200.000 Z=11582.031) Runtime:IsValid=true, Min=(X=50400.000 Y=-50400.000 Z=3310.156), Max=(X=75600.000 Y=-25200.000 Z=11691.406)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:FAD653E7442C7F470EC2BEBA0BB3F6D6 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000009ef014e Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=7688.281), Max=(X=-75600.000 Y=-75600.000 Z=11978.906) Runtime:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=7269.531), Max=(X=-75600.000 Y=-75600.000 Z=12157.031)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:FC48EF694B253C77732A649FFCDE6D12 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000006f64a2d2 Label:HLOD0_Instancing/OpenWorld_MainGrid_0_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=75600.000 Z=2105.469), Max=(X=25200.000 Y=100800.000 Z=6055.469) Runtime:IsValid=true, Min=(X=0.000 Y=75600.000 Z=2080.469), Max=(X=25200.000 Y=100800.000 Z=6055.469)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:FDFCEED34EAABBEE0F0D158388E6739B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_2018343355 Label:Cube9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=8002.422 Y=-5727.500 Z=327.364), Max=(X=8177.578 Y=-152.500 Z=472.636) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- Guid:FE5AFF8943D8CF088796AF9C4C455D11 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_047C16A8CCE6FE2902_1124392535 Label:SpotLight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4347.483 Y=-2752.517 Z=-605.033), Max=(X=5852.517 Y=-1247.483 Z=900.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:0295F529418D4C2020DCE3AB2D885006 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1939477060 Label:Cube5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4177.160 Y=-277.917 Z=-580.000), Max=(X=8502.840 Y=-142.083 Z=2420.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:037858414826B4B461381BBDF7016EFF BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284985334 Label:Drum_Triangle2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5128.395 Y=-2620.887 Z=285.498), Max=(X=5321.175 Y=-2429.912 Z=350.312) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:04265C6E46ACE037BC2998B09D137A4F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000be6addd1 Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=50400.000 Z=209.375), Max=(X=0.000 Y=75600.000 Z=5080.469) Runtime:IsValid=true, Min=(X=-25200.000 Y=50400.000 Z=189.062), Max=(X=0.000 Y=75600.000 Z=5252.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:04991CA94B62A3D005BBCDA96861F827 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e96adb9f Label:HLOD0_Instancing/OpenWorld_MainGrid_1_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=25200.000 Z=0.000), Max=(X=50400.000 Y=50400.000 Z=5703.906) Runtime:IsValid=true, Min=(X=25200.000 Y=25200.000 Z=0.000), Max=(X=50400.000 Y=50400.000 Z=5888.281)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:05A2FD4D4EB3549F2B984587C838660C BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_7085C2C84A1A231D02_2109939280 Label:OnBeat SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5150.000 Y=-2780.000 Z=390.000), Max=(X=5250.000 Y=-2680.000 Z=490.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:073CB573462E5A472340108A561F45DF BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1268069540 Label:PointLight4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4264.449 Y=-2035.551 Z=-505.551), Max=(X=5315.551 Y=-984.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:0C3FD35242A35B09DEA36EA0E062C55A BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a37177dd Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=-25200.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) Runtime:IsValid=true, Min=(X=-25200.000 Y=-25200.000 Z=-100.000), Max=(X=0.000 Y=0.000 Z=100.000)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [  7]
+ |   |   |   |- Guid:0C73701F4FD9D11EFB436983B03C8D65 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000014fcb629 Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=-75600.000 Z=5260.156), Max=(X=-50400.000 Y=-50400.000 Z=7752.344) Runtime:IsValid=true, Min=(X=-75600.000 Y=-75600.000 Z=5113.281), Max=(X=-50400.000 Y=-50400.000 Z=7863.281)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [  8]
+ |   |   |   |- Guid:0CCF58F74AD2B1B4847A16B2414EB3D8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6102F02_1898246945 Label:ConductorPodium_Cylinder_001 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4885.663 Y=-2207.120 Z=-31.253), Max=(X=5128.741 Y=-1957.817 Z=480.300) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Podium FolderGuid:248D56BC43EDC2B6324EDE87C3AD5954
+ |   |   |- [+] [  9]
+ |   |   |   |- Guid:0E1DAE5F43C31C859C1E1A8B4E3A75E9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000653a6479 Label:HLOD0_Instancing/OpenWorld_MainGrid_2_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=50400.000 Z=5661.719), Max=(X=75600.000 Y=75600.000 Z=10603.906) Runtime:IsValid=true, Min=(X=50400.000 Y=50400.000 Z=5341.406), Max=(X=75600.000 Y=75600.000 Z=10853.906)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 10]
+ |   |   |   |- Guid:0FE356D044194BE098C4BCBF6F5CDF92 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- [+] [ 11]
+ |   |   |   |- Guid:106042DC44454CE2001023B196E6AB3E BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284984333 Label:Drum_DrumAcc8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5258.339 Y=-2719.996 Z=148.278), Max=(X=5473.584 Y=-2504.746 Z=230.597) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 12]
+ |   |   |   |- Guid:13640E764059E491BC4FE9B7A3480B53 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1557573354 Label:Cube6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5593.360 Y=-1917.500 Z=-520.015), Max=(X=8446.640 Y=-1442.500 Z=600.015) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [ 13]
+ |   |   |   |- Guid:1711705C4EE8E1869F88A5B66BCE0465 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000001c4e2f77 Label:HLOD0_Instancing/OpenWorld_MainGrid_1_-1_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=25200.000 Y=-25200.000 Z=0.000), Max=(X=50400.000 Y=0.000 Z=3310.156) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 14]
+ |   |   |   |- Guid:17EFDF6A45B163BE0AF05BA2C1913FE1 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000b65f63ff Label:HLOD0_Instancing/OpenWorld_MainGrid_1_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=-100800.000 Z=4986.719), Max=(X=50400.000 Y=-75600.000 Z=8775.781) Runtime:IsValid=true, Min=(X=25200.000 Y=-100800.000 Z=4950.781), Max=(X=50400.000 Y=-75600.000 Z=8967.969)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 15]
+ |   |   |   |- Guid:1BA9A1A944D73CBB3A5D50ADB3134477 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a69d93d0 Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=25200.000 Z=0.000) Runtime:IsValid=true, Min=(X=-25200.000 Y=0.000 Z=-100.000), Max=(X=0.000 Y=25200.000 Z=100.000)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 16]
+ |   |   |   |- Guid:2339E84C4479F32CB4B02BAE69E10E6A BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000675ef2fd Label:HLOD0_Instancing/OpenWorld_MainGrid_2_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=-25200.000 Z=892.969), Max=(X=75600.000 Y=0.000 Z=9125.781) Runtime:IsValid=true, Min=(X=50400.000 Y=-25200.000 Z=870.312), Max=(X=75600.000 Y=0.000 Z=9125.781)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 17]
+ |   |   |   |- Guid:23C593574429B34B87E5BC99DAFB0774 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a4bc834b Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=-75600.000 Z=142.188), Max=(X=0.000 Y=-50400.000 Z=8386.719) Runtime:IsValid=true, Min=(X=-25200.000 Y=-75600.000 Z=142.188), Max=(X=0.000 Y=-50400.000 Z=8805.469)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 18]
+ |   |   |   |- Guid:248C35A44FEB916680ADDE9EAA83B965 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000f2adc785 Label:HLOD0_Instancing/OpenWorld_MainGrid_1_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=50400.000 Z=1202.344), Max=(X=50400.000 Y=75600.000 Z=8425.781) Runtime:IsValid=true, Min=(X=25200.000 Y=50400.000 Z=1202.344), Max=(X=50400.000 Y=75600.000 Z=8677.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 19]
+ |   |   |   |- Guid:2580BBD342E9A46ADEB0B69A2A38F9D5 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000025ab023 Label:HLOD0_Instancing/OpenWorld_MainGrid_1_-3_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=25200.000 Y=-75600.000 Z=1064.062), Max=(X=50400.000 Y=-50400.000 Z=6511.719) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 20]
+ |   |   |   |- Guid:279974554CB8E9BC8D179C93075DA09D BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000d58aa934 Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=25200.000 Z=0.000), Max=(X=0.000 Y=50400.000 Z=1284.375) Runtime:IsValid=true, Min=(X=-25200.000 Y=25200.000 Z=-0.781), Max=(X=0.000 Y=50400.000 Z=1284.375)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 21]
+ |   |   |   |- Guid:2997A7F6476234493FE0998447E455A4 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000009f421c4b Label:HLOD0_Instancing/OpenWorld_MainGrid_1_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=-50400.000 Z=0.781), Max=(X=50400.000 Y=-25200.000 Z=6275.781) Runtime:IsValid=true, Min=(X=25200.000 Y=-50400.000 Z=0.781), Max=(X=50400.000 Y=-25200.000 Z=6920.312)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 22]
+ |   |   |   |- Guid:2A02E8F944734EF9917F989FDB22DA62 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000000abadc8a Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=-75600.000 Z=5661.719), Max=(X=-75600.000 Y=-50400.000 Z=8552.344) Runtime:IsValid=true, Min=(X=-100800.000 Y=-75600.000 Z=5449.219), Max=(X=-75600.000 Y=-50400.000 Z=8761.719)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 23]
+ |   |   |   |- Guid:2DC631FA449EE1138C13EFBF84029F1D BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6102F02_1865762944 Label:ConductorPodium_Cylinder SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5303.786 Y=-1883.359 Z=58.601), Max=(X=5534.863 Y=-1615.782 Z=386.035) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Podium FolderGuid:248D56BC43EDC2B6324EDE87C3AD5954
+ |   |   |- [+] [ 24]
+ |   |   |   |- Guid:2F348E334094135DDE754395176F5C58 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000dde63563 Label:HLOD0_Instancing/OpenWorld_MainGrid_1_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=75600.000 Z=2653.906), Max=(X=50400.000 Y=100800.000 Z=9789.844) Runtime:IsValid=true, Min=(X=25200.000 Y=75600.000 Z=2653.906), Max=(X=50400.000 Y=100800.000 Z=9796.094)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 25]
+ |   |   |   |- Guid:2F528AC547876BCC7C834F9C3F0EF216 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000c1bf9f53 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=0.000 Z=0.000), Max=(X=-25200.000 Y=25200.000 Z=131.250) Runtime:IsValid=true, Min=(X=-50400.000 Y=0.000 Z=0.000), Max=(X=-25200.000 Y=25200.000 Z=164.844)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 26]
+ |   |   |   |- Guid:2FD0D1A04038219FB3FD60A89FDFB7F3 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_047C16A8CCE6082A02_1147169255 Label:SpotLight3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3548.221 Y=-13228.221 Z=-20516.442), Max=(X=19228.221 Y=9548.221 Z=2260.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- [+] [ 27]
+ |   |   |   |- Guid:30EE0BB649BED9B4EAD4E3BC88D393F2 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000bb550923 Label:HLOD0_Instancing/OpenWorld_MainGrid_2_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=0.000 Z=893.750), Max=(X=75600.000 Y=25200.000 Z=7041.406) Runtime:IsValid=true, Min=(X=50400.000 Y=0.000 Z=893.750), Max=(X=75600.000 Y=25200.000 Z=7369.531)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 28]
+ |   |   |   |- Guid:32E974A64937C7DFCC92E6BC6748E03F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000595af4d3 Label:HLOD0_Instancing/OpenWorld_MainGrid_2_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=25200.000 Z=2267.188), Max=(X=75600.000 Y=50400.000 Z=9232.031) Runtime:IsValid=true, Min=(X=50400.000 Y=25200.000 Z=2264.062), Max=(X=75600.000 Y=50400.000 Z=9232.031)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 29]
+ |   |   |   |- Guid:34BDEAE442400063A4A57BAEE9AC8A99 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000007447602 Label:HLOD0_Instancing/OpenWorld_MainGrid_3_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=75600.000 Z=8967.969), Max=(X=100800.000 Y=100800.000 Z=12530.469) Runtime:IsValid=true, Min=(X=75600.000 Y=75600.000 Z=8727.344), Max=(X=100800.000 Y=100800.000 Z=12871.094)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 30]
+ |   |   |   |- Guid:34D376224CDC6ED4AF18BABAE5774FD9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a689a9ea Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=-50400.000 Z=1038.281), Max=(X=-50400.000 Y=-25200.000 Z=8749.219) Runtime:IsValid=true, Min=(X=-75600.000 Y=-50400.000 Z=1038.281), Max=(X=-50400.000 Y=-25200.000 Z=8925.781)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 31]
+ |   |   |   |- Guid:37E72AEB42A5E3AEB5806EB783E53A28 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284982328 Label:Drum_DrumBase7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4977.059 Y=-3054.852 Z=101.397), Max=(X=5188.384 Y=-2843.527 Z=278.603) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 32]
+ |   |   |   |- Guid:380E598A49A0D25D300AF2AFF0C981EC BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_2097694358 Label:Cube12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4100.000 Y=-4412.500 Z=-430.000), Max=(X=4200.000 Y=-87.500 Z=2570.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [ 33]
+ |   |   |   |- Guid:40E8B5E44F3DE235B31DAB9758287C47 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_A85E45CFE40401D200_1470380759 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 34]
+ |   |   |   |- Guid:45AD154A450E7EBDAE7095A001901E15 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e7e7c686 Label:HLOD0_Instancing/OpenWorld_MainGrid_3_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=50400.000 Z=9232.031), Max=(X=100800.000 Y=75600.000 Z=14719.531) Runtime:IsValid=true, Min=(X=75600.000 Y=50400.000 Z=9205.469), Max=(X=100800.000 Y=75600.000 Z=14989.844)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 35]
+ |   |   |   |- Guid:492241CE4FDD768DF69FADB5CF503CCC BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284983331 Label:Drum_Stand3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5259.911 Y=-2682.678 Z=-2.491), Max=(X=5433.845 Y=-2508.742 Z=177.749) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 36]
+ |   |   |   |- Guid:4AADEE0441F7D426F9424BACEE29467C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000040c4c889 Label:HLOD0_Instancing/OpenWorld_MainGrid_0_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=25200.000 Z=0.000), Max=(X=25200.000 Y=50400.000 Z=1202.344) Runtime:IsValid=true, Min=(X=0.000 Y=25200.000 Z=-0.781), Max=(X=25200.000 Y=50400.000 Z=1202.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 37]
+ |   |   |   |- Guid:4CC1AA0A4EDB517EADE54BADB2C72C26 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000001aad9091 Label:HLOD0_Instancing/OpenWorld_MainGrid_2_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=-75600.000 Z=5700.781), Max=(X=75600.000 Y=-50400.000 Z=10830.469) Runtime:IsValid=true, Min=(X=50400.000 Y=-75600.000 Z=5639.844), Max=(X=75600.000 Y=-50400.000 Z=10830.469)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 38]
+ |   |   |   |- Guid:51C79B3C4CB7110A7BAF2BB705A09CCF BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1794763055 Label:Cylinder SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4130.000 Y=-3410.000 Z=-110.000), Max=(X=6130.000 Y=-1410.000 Z=-10.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [ 39]
+ |   |   |   |- Guid:51DCFDD24E45EC7CD3ADD8B372419CA8 BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_F02F74551BF5599B01_1153002503 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=4548.835 Y=-2407.351 Z=145.617), Max=(X=4628.835 Y=-2327.351 Z=329.617) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 40]
+ |   |   |   |- Guid:532CAF4E40E03E68DC0E87AB98E84C66 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284977321 Label:Drum_Cylinder2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5035.135 Y=-2692.911 Z=264.182), Max=(X=5091.632 Y=-2629.311 Z=382.701) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 41]
+ |   |   |   |- Guid:5343FCD44E47E6836972319797ED1F56 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000003183c5a3 Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=-25200.000 Z=28.906), Max=(X=-50400.000 Y=0.000 Z=6477.344) Runtime:IsValid=true, Min=(X=-75600.000 Y=-25200.000 Z=17.188), Max=(X=-50400.000 Y=0.000 Z=6477.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 42]
+ |   |   |   |- Guid:55A4044944B4D4840EE4FA9D095EE323 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284981327 Label:Drum_DrumAcc6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5038.989 Y=-2674.676 Z=330.294), Max=(X=5193.053 Y=-2522.309 Z=428.742) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 43]
+ |   |   |   |- Guid:572314514CB950B5DA4574BEE1143C4E BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a639b1e9 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=-100800.000 Z=6632.031), Max=(X=-25200.000 Y=-75600.000 Z=11791.406) Runtime:IsValid=true, Min=(X=-50400.000 Y=-100800.000 Z=6572.656), Max=(X=-25200.000 Y=-75600.000 Z=11941.406)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 44]
+ |   |   |   |- Guid:5AC20F8D4B8119DC06DB5087363A2393 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BF2902_1209353420 Label:Cube8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4200.000 Y=-4502.500 Z=2280.000), Max=(X=8300.000 Y=-177.500 Z=2380.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [ 45]
+ |   |   |   |- Guid:5D5281254BE18E50FA65EFBC4ED14A2A BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000008cf7d23e Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_3_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-25200.000 Y=75600.000 Z=3127.344), Max=(X=0.000 Y=100800.000 Z=10647.656) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 46]
+ |   |   |   |- Guid:5F6DC1094E76CC43135F0293F27698A5 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284979324 Label:Drum_DrumBase5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4930.025 Y=-2804.334 Z=329.423), Max=(X=5083.270 Y=-2653.079 Z=430.577) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 47]
+ |   |   |   |- Guid:66C3F9DF437687DD4728F88280BDE07D BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1638400.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1638400.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 48]
+ |   |   |   |- Guid:67C01C3E407BB57E17B677A5224B12A0 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284976320 Label:Drum_DrumAcc4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4910.120 Y=-2835.312 Z=-3.708), Max=(X=5232.681 Y=-2495.375 Z=301.820) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 49]
+ |   |   |   |- Guid:6FEB4F354C72E9C9ADD8DC96038050BA BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 50]
+ |   |   |   |- Guid:703F6D184BB76237E82DD8B8406A470D BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ea238fdb Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=75600.000 Z=6655.469), Max=(X=-50400.000 Y=100800.000 Z=12411.719) Runtime:IsValid=true, Min=(X=-75600.000 Y=75600.000 Z=6619.531), Max=(X=-50400.000 Y=100800.000 Z=13197.656)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 51]
+ |   |   |   |- Guid:72AA0D3742217665C5E6628D76EE66F8 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1259733538 Label:PointLight2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4824.449 Y=-3845.551 Z=-505.551), Max=(X=5875.551 Y=-2794.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- [+] [ 52]
+ |   |   |   |- Guid:74AD9AD3443C2A56AA03A689C63BCBD8 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000068ccf59d Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=-75600.000 Z=1993.750), Max=(X=-25200.000 Y=-50400.000 Z=8386.719) Runtime:IsValid=true, Min=(X=-50400.000 Y=-75600.000 Z=1993.750), Max=(X=-25200.000 Y=-50400.000 Z=8566.406)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 53]
+ |   |   |   |- Guid:750FDC8844DDCB96C9305AA936653435 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1282090543 Label:PointLight6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5334.449 Y=-2555.551 Z=-505.551), Max=(X=6385.551 Y=-1504.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- [+] [ 54]
+ |   |   |   |- Guid:754D81D9449786DA11CB52B8A7141937 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1262099539 Label:PointLight3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5334.449 Y=-3265.551 Z=-505.551), Max=(X=6385.551 Y=-2214.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- [+] [ 55]
+ |   |   |   |- Guid:76D7630C49305422069B50B5617F75DD BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000000f202552 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=75600.000 Z=5080.469), Max=(X=-25200.000 Y=100800.000 Z=13058.594) Runtime:IsValid=true, Min=(X=-50400.000 Y=75600.000 Z=5080.469), Max=(X=-25200.000 Y=100800.000 Z=13166.406)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 56]
+ |   |   |   |- Guid:77FE443E43F89859C253D09DD40CC5E3 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1545679353 Label:Cube3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5593.360 Y=-3177.500 Z=-520.015), Max=(X=8446.640 Y=-2702.500 Z=600.015) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [ 57]
+ |   |   |   |- Guid:796AADF14CFD731EC880BDA13326E346 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ac2bf045 Label:HLOD0_Instancing/OpenWorld_MainGrid_2_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=-100800.000 Z=5958.594), Max=(X=75600.000 Y=-75600.000 Z=10986.719) Runtime:IsValid=true, Min=(X=50400.000 Y=-100800.000 Z=5939.844), Max=(X=75600.000 Y=-75600.000 Z=10986.719)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 58]
+ |   |   |   |- Guid:7D9B3C7B4049B0A690D3C4BAA4126438 BaseClass:/Game/Blueprints/MusicHandler.MusicHandler_C NativeClass:/Script/Engine.Actor Name:MusicHandler_C_UAID_60189575E8DA923002_2082124879 Label:MusicHandler SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5186.102 Y=-2366.666 Z=-10.000), Max=(X=5186.102 Y=-2366.666 Z=-10.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 59]
+ |   |   |   |- Guid:7DC626804910C19C653209835E035769 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000de0ce2c8 Label:HLOD0_Instancing/OpenWorld_MainGrid_0_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=25200.000 Y=25200.000 Z=0.000) Runtime:IsValid=true, Min=(X=0.000 Y=0.000 Z=-100.000), Max=(X=25200.000 Y=25200.000 Z=100.000)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 60]
+ |   |   |   |- Guid:818A62F74A215FC623FBC49AB12B672C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000092f62c1e Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=25200.000 Z=131.250), Max=(X=-50400.000 Y=50400.000 Z=6824.219) Runtime:IsValid=true, Min=(X=-75600.000 Y=25200.000 Z=131.250), Max=(X=-50400.000 Y=50400.000 Z=8019.531)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 61]
+ |   |   |   |- Guid:83723B7E4C5FB8449BC9D6B0C31BA3B2 BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 62]
+ |   |   |   |- Guid:83CB76254D67CA83BD90CEBAA5CB2F10 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284978323 Label:Drum_Triangle SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4838.630 Y=-2936.993 Z=364.801), Max=(X=5030.119 Y=-2743.773 Z=429.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 63]
+ |   |   |   |- Guid:84CC61AC46E7F801C4E0F1A79F9964F3 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000008b5644b9 Label:HLOD0_Instancing/OpenWorld_MainGrid_3_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=-50400.000 Z=9125.781), Max=(X=100800.000 Y=-25200.000 Z=12572.656) Runtime:IsValid=true, Min=(X=75600.000 Y=-50400.000 Z=9125.781), Max=(X=100800.000 Y=-25200.000 Z=12972.656)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 64]
+ |   |   |   |- Guid:8569825242C54083549F91AA13889298 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ea2f4463 Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=-100800.000 Z=6683.594), Max=(X=-50400.000 Y=-75600.000 Z=12138.281) Runtime:IsValid=true, Min=(X=-75600.000 Y=-100800.000 Z=6608.594), Max=(X=-50400.000 Y=-75600.000 Z=12658.594)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 65]
+ |   |   |   |- Guid:8914968543B484FCE95B398224682748 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000de8c0236 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=50400.000 Z=1284.375), Max=(X=-25200.000 Y=75600.000 Z=7350.781) Runtime:IsValid=true, Min=(X=-50400.000 Y=50400.000 Z=1284.375), Max=(X=-25200.000 Y=75600.000 Z=7450.781)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 66]
+ |   |   |   |- Guid:897D50054EDF0A599E82ACA2D8362F7F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000003948efd7 Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=0.000 Z=900.781), Max=(X=-75600.000 Y=25200.000 Z=9271.094) Runtime:IsValid=true, Min=(X=-100800.000 Y=0.000 Z=847.656), Max=(X=-75600.000 Y=25200.000 Z=9271.094)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 67]
+ |   |   |   |- Guid:8A38E1394FFBB056D2E3D4A7C10AC8C0 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1917247059 Label:Cube4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4177.160 Y=-4467.917 Z=-580.000), Max=(X=8502.840 Y=-4332.083 Z=2420.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [ 68]
+ |   |   |   |- Guid:8BC8272F479457AAB05D4C9A6BCF3FB6 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284983330 Label:Drum_Stand2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4848.089 Y=-2924.551 Z=-8.105), Max=(X=5022.024 Y=-2750.616 Z=397.434) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 69]
+ |   |   |   |- Guid:8F209B4D405836925AC2938705BDBD13 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1277953542 Label:PointLight5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4744.449 Y=-2035.551 Z=-505.551), Max=(X=5795.551 Y=-984.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- [+] [ 70]
+ |   |   |   |- Guid:980FA7524C6275366C3DF99965C6B8BE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284974319 Label:Drum_DrumBase4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4907.867 Y=-2838.049 Z=0.000), Max=(X=5236.450 Y=-2494.331 Z=300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 71]
+ |   |   |   |- Guid:9B4749DE4FBE09274303719DB146B3F7 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000004914b23f Label:HLOD0_Instancing/OpenWorld_MainGrid_2_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=75600.000 Z=7786.719), Max=(X=75600.000 Y=100800.000 Z=11655.469) Runtime:IsValid=true, Min=(X=50400.000 Y=75600.000 Z=7785.156), Max=(X=75600.000 Y=100800.000 Z=11791.406)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 72]
+ |   |   |   |- Guid:9BFD912F425D9AE01100AA93F8E57B39 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000004e4e8cb1 Label:HLOD0_Instancing/OpenWorld_MainGrid_3_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=25200.000 Z=5872.656), Max=(X=100800.000 Y=50400.000 Z=13544.531) Runtime:IsValid=true, Min=(X=75600.000 Y=25200.000 Z=5872.656), Max=(X=100800.000 Y=50400.000 Z=13596.094)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 73]
+ |   |   |   |- Guid:9C76EBA846C44B4F54D4438F160C5F26 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ef89df56 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-50400.000 Y=25200.000 Z=0.000), Max=(X=-25200.000 Y=50400.000 Z=3455.469) Runtime:IsValid=true, Min=(X=-50400.000 Y=25200.000 Z=0.000), Max=(X=-25200.000 Y=50400.000 Z=3609.375)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 74]
+ |   |   |   |- Guid:9D86A76E4AB3A3ECCAD468B896028289 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000570d97fa Label:HLOD0_Instancing/OpenWorld_MainGrid_0_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=-25200.000 Z=0.000), Max=(X=25200.000 Y=0.000 Z=0.781) Runtime:IsValid=true, Min=(X=0.000 Y=-25200.000 Z=-100.000), Max=(X=25200.000 Y=0.000 Z=100.000)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 75]
+ |   |   |   |- Guid:A28F5E0C414833DF06C344BD3C6661EF BaseClass:/Game/Blueprints/Drum_ProgressBar.Drum_ProgressBar_C NativeClass:/Script/Engine.Actor Name:Drum_ProgressBar_C_UAID_047C16A8CCE6D52C02_1888273447 Label:Drum_ProgressBar_R SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4735.256 Y=-2810.182 Z=0.000), Max=(X=5084.024 Y=-2449.123 Z=500.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:UI FolderGuid:222F110E4DFDA7B16344C487CA9438ED
+ |   |   |- [+] [ 76]
+ |   |   |   |- Guid:A4BC3AA749187B0090BB86AF3126C56B BaseClass:/SERIALCOM/UE_BLUEPRINTS/BP_SerialCom_v4_UE510.BP_SerialCom_v4_UE510_C NativeClass:/Script/Engine.Actor Name:BP_SerialCom_v4_UE510_C_UAID_60189575E8DAE03402_2048220832 Label:BP_SerialCom_v4_UE510 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3950.000 Y=-3550.000 Z=10.000), Max=(X=3950.000 Y=-3060.000 Z=62.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 77]
+ |   |   |   |- Guid:A7EB5C3D468272AD017F5EBDA56498A8 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000055c0ccaa Label:HLOD0_Instancing/OpenWorld_MainGrid_0_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=-75600.000 Z=110.156), Max=(X=25200.000 Y=-50400.000 Z=6735.156) Runtime:IsValid=true, Min=(X=0.000 Y=-75600.000 Z=106.250), Max=(X=25200.000 Y=-50400.000 Z=6735.156)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 78]
+ |   |   |   |- Guid:AA30C0634C8D61321C6912B3DFCDC4E6 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284980326 Label:Drum_DrumBase6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5039.299 Y=-2674.107 Z=329.423), Max=(X=5192.544 Y=-2522.851 Z=430.577) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 79]
+ |   |   |   |- Guid:AB0338C44EDF1573865BE595E29D110F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000004e80c166 Label:HLOD0_Instancing/OpenWorld_MainGrid_3_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=-100800.000 Z=7657.031), Max=(X=100800.000 Y=-75600.000 Z=13369.531) Runtime:IsValid=true, Min=(X=75600.000 Y=-100800.000 Z=7522.656), Max=(X=100800.000 Y=-75600.000 Z=13553.906)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 80]
+ |   |   |   |- Guid:AB94BCE44D6849E6706B35BCC893CDEA BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_UAID_A85E45CFE40401D200_1470381760 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 81]
+ |   |   |   |- Guid:ABA807A1444C973A35E5E8A7FC14A704 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000032084f09 Label:HLOD0_Instancing/OpenWorld_MainGrid_0_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=50400.000 Z=101.562), Max=(X=25200.000 Y=75600.000 Z=3269.531) Runtime:IsValid=true, Min=(X=0.000 Y=50400.000 Z=100.000), Max=(X=25200.000 Y=75600.000 Z=3294.531)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 82]
+ |   |   |   |- Guid:B285AC9042CD50C720D0AEA0101CFA49 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_047C16A8CCE6AE2A02_1195517471 Label:SpotLight4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3548.221 Y=-14718.221 Z=-20426.442), Max=(X=19228.221 Y=8058.221 Z=2350.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- [+] [ 83]
+ |   |   |   |- Guid:B55232CC4E15F039B09B6CAA57E9393B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284978322 Label:Drum_Stand SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4977.084 Y=-3019.737 Z=-2.491), Max=(X=5151.019 Y=-2845.801 Z=177.749) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 84]
+ |   |   |   |- Guid:B7D8DCF64BD2C3F97D7447AA6B4DFEDB BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284982329 Label:Drum_DrumAcc7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4975.513 Y=-3057.056 Z=106.557), Max=(X=5190.758 Y=-2841.806 Z=271.193) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 85]
+ |   |   |   |- Guid:BD9A46884FD3348E3F2789AB5619B270 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_2044078356 Label:Cube10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7282.422 Y=-5727.500 Z=67.364), Max=(X=7457.578 Y=-152.500 Z=212.636) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [ 86]
+ |   |   |   |- Guid:BF97799C4BDB5AED25025FBD945821ED BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e2b76945 Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=-50400.000 Z=0.000), Max=(X=0.000 Y=-25200.000 Z=1993.750) Runtime:IsValid=true, Min=(X=-25200.000 Y=-50400.000 Z=-0.781), Max=(X=0.000 Y=-25200.000 Z=1993.750)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 87]
+ |   |   |   |- Guid:C0FFE4294661072F85F91DAF41BCF35B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1965382062 Label:Cube7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4200.000 Y=-4502.500 Z=-400.000), Max=(X=8300.000 Y=-177.500 Z=-300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [ 88]
+ |   |   |   |- Guid:C20387A448F70B129D95149A24E27928 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000006f681083 Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=0.000 Z=16.406), Max=(X=-50400.000 Y=25200.000 Z=4357.031) Runtime:IsValid=true, Min=(X=-75600.000 Y=0.000 Z=7.031), Max=(X=-50400.000 Y=25200.000 Z=4389.844)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 89]
+ |   |   |   |- Guid:C3CE6C8441DCEB1B71A8EEB04C334747 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000037fedcc7 Label:HLOD0_Instancing/OpenWorld_MainGrid_-3_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-75600.000 Y=50400.000 Z=3219.531), Max=(X=-50400.000 Y=75600.000 Z=9022.656) Runtime:IsValid=true, Min=(X=-75600.000 Y=50400.000 Z=3219.531), Max=(X=-50400.000 Y=75600.000 Z=9172.656)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 90]
+ |   |   |   |- Guid:C430253847D61E34AC2C93B8854ECC54 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_2048456357 Label:Cube11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6592.422 Y=-5727.500 Z=-182.636), Max=(X=6767.578 Y=-152.500 Z=-37.364) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [ 91]
+ |   |   |   |- Guid:C9EBCF104BFDC8F48C9E4495D1F4CF63 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000001bc22ef1 Label:HLOD0_Instancing/OpenWorld_MainGrid_0_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=-100800.000 Z=4666.406), Max=(X=25200.000 Y=-75600.000 Z=11261.719) Runtime:IsValid=true, Min=(X=0.000 Y=-100800.000 Z=4621.094), Max=(X=25200.000 Y=-75600.000 Z=11314.844)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 92]
+ |   |   |   |- Guid:CB6ED67F4A3B325BC7D7B985CFBB7F76 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284984332 Label:Drum_DrumBase8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5259.886 Y=-2717.792 Z=145.699), Max=(X=5471.211 Y=-2506.467 Z=234.301) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 93]
+ |   |   |   |- Guid:CC8A9E2B4D40489C7CA14E89E2ECE4F4 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000d31817fd Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=25200.000 Z=4167.969), Max=(X=-75600.000 Y=50400.000 Z=10260.156) Runtime:IsValid=true, Min=(X=-100800.000 Y=25200.000 Z=3900.781), Max=(X=-75600.000 Y=50400.000 Z=10327.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 94]
+ |   |   |   |- Guid:CECD91E640128892CB404985C6A46D12 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_48F17F8EB3A8CA2E02_1673852623 Label:StaticMeshActor SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4200.000 Y=-3663.214 Z=279.144), Max=(X=4200.000 Y=-3663.214 Z=279.144) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 95]
+ |   |   |   |- Guid:D264068C49034DECD8B9C994FD93C442 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_047C16A8CCE6FE2902_1183004536 Label:SpotLight2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4397.483 Y=-3482.517 Z=-605.033), Max=(X=5902.517 Y=-1977.483 Z=900.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- [+] [ 96]
+ |   |   |   |- Guid:D38C96694CC84163DA07809829485BE3 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000f4da60e5 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_-1_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-50400.000 Y=-25200.000 Z=0.000), Max=(X=-25200.000 Y=0.000 Z=1038.281) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 97]
+ |   |   |   |- Guid:D6135FA5422028B0A554EDB73E530CC1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284986335 Label:Drum_Stand4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5124.488 Y=-2595.152 Z=-1.860), Max=(X=5298.422 Y=-2421.217 Z=313.560) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 98]
+ |   |   |   |- Guid:D6AFB52045385D3293B97C9A10B46918 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_1284980325 Label:Drum_DrumAcc5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4929.715 Y=-2804.903 Z=330.294), Max=(X=5083.779 Y=-2652.536 Z=428.742) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Drum/Red FolderGuid:584B52AB40CD7B0277EF48BB0CB7F4C1
+ |   |   |- [+] [ 99]
+ |   |   |   |- Guid:D931AEAA46B1A1B00FB70B9FD62A7041 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1900631057 Label:Cube2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=8380.000 Y=-4452.500 Z=-580.000), Max=(X=8480.000 Y=-127.500 Z=2420.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [100]
+ |   |   |   |- Guid:D9E3C8804F0145210EE5F6BBC43F44C4 BaseClass:/Game/Blueprints/Beat.Beat_C NativeClass:/Script/Engine.Actor Name:Beat_C_UAID_7085C2C84A1A261D02_1172326812 Label:Beat SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5350.000 Y=-2414.496 Z=285.078), Max=(X=5450.000 Y=-2314.496 Z=553.474) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [101]
+ |   |   |   |- Guid:DAB9D92A455166394F36D88087371678 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000125f4854 Label:HLOD0_Instancing/OpenWorld_MainGrid_-2_-2_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-50400.000 Y=-50400.000 Z=0.000), Max=(X=-25200.000 Y=-25200.000 Z=5260.156) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [102]
+ |   |   |   |- Guid:DB065B6446A670670773D9A069AA7ADE BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000006933a81d Label:HLOD0_Instancing/OpenWorld_MainGrid_3_-3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=-75600.000 Z=8610.156), Max=(X=100800.000 Y=-50400.000 Z=11753.906) Runtime:IsValid=true, Min=(X=75600.000 Y=-75600.000 Z=8610.156), Max=(X=100800.000 Y=-50400.000 Z=11772.656)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [103]
+ |   |   |   |- Guid:DC54EAC84D2EDAEEF27BC7AC022F3B91 BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_A85E45CFE40401D200_1470382761 Label:DirectionalLight SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1 FolderPath:Concert Hall/Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [104]
+ |   |   |   |- Guid:DCF148DA40E227794F3366862D1228A7 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_047C16A8CCE6AE2A02_1201613472 Label:SpotLight5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-6388.221 Y=-13628.221 Z=-20866.442), Max=(X=16388.221 Y=9148.221 Z=1910.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- [+] [105]
+ |   |   |   |- Guid:DE1F81CC4B73517A816A92B42C7857A2 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000b1822120 Label:HLOD0_Instancing/OpenWorld_MainGrid_1_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=25200.000 Y=0.000 Z=0.000), Max=(X=50400.000 Y=25200.000 Z=2267.188) Runtime:IsValid=true, Min=(X=25200.000 Y=0.000 Z=0.000), Max=(X=50400.000 Y=25200.000 Z=2303.125)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [106]
+ |   |   |   |- Guid:E41E0743409B21EFEDD49FBD61FCE022 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6102F02_1774895943 Label:ConductorPodium_Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4844.315 Y=-2318.311 Z=-26.725), Max=(X=5701.295 Y=-1427.000 Z=75.677) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Podium FolderGuid:248D56BC43EDC2B6324EDE87C3AD5954
+ |   |   |- [+] [107]
+ |   |   |   |- Guid:E81AB91F48D4F40D054833AA4E1DCA4E BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000b44081de Label:HLOD0_Instancing/OpenWorld_MainGrid_-1_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-25200.000 Y=-100800.000 Z=6513.281), Max=(X=0.000 Y=-75600.000 Z=11442.969) Runtime:IsValid=true, Min=(X=-25200.000 Y=-100800.000 Z=6453.906), Max=(X=0.000 Y=-75600.000 Z=11442.969)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [108]
+ |   |   |   |- Guid:E83277054110A273E88E16A81EEC0CFF BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000f407ec03 Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=-25200.000 Z=966.406), Max=(X=-75600.000 Y=0.000 Z=9157.031) Runtime:IsValid=true, Min=(X=-100800.000 Y=-25200.000 Z=966.406), Max=(X=-75600.000 Y=0.000 Z=9202.344)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [109]
+ |   |   |   |- Guid:E9C270F3409263C87132C18FB1173DA2 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000042255354 Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=50400.000 Z=5602.344), Max=(X=-75600.000 Y=75600.000 Z=10936.719) Runtime:IsValid=true, Min=(X=-100800.000 Y=50400.000 Z=5450.781), Max=(X=-75600.000 Y=75600.000 Z=11130.469)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [110]
+ |   |   |   |- Guid:EB7E8BAC412C6286420A1E878CF2AE24 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000006e5123fa Label:HLOD0_Instancing/OpenWorld_MainGrid_3_0_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=0.000 Z=5105.469), Max=(X=100800.000 Y=25200.000 Z=9200.781) Runtime:IsValid=true, Min=(X=75600.000 Y=0.000 Z=5091.406), Max=(X=100800.000 Y=25200.000 Z=9228.906)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [111]
+ |   |   |   |- Guid:EBB25DAF4E04A62F492C919A28351417 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e424783a Label:HLOD0_Instancing/OpenWorld_MainGrid_3_-1_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=75600.000 Y=-25200.000 Z=5338.281), Max=(X=100800.000 Y=0.000 Z=11575.781) Runtime:IsValid=true, Min=(X=75600.000 Y=-25200.000 Z=5280.469), Max=(X=100800.000 Y=0.000 Z=11586.719)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [112]
+ |   |   |   |- Guid:EC2674B0489EACD8B8E5C6A20E85A998 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e0b604f2 Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=-50400.000 Z=5842.969), Max=(X=-75600.000 Y=-25200.000 Z=9278.906) Runtime:IsValid=true, Min=(X=-100800.000 Y=-50400.000 Z=5807.031), Max=(X=-75600.000 Y=-25200.000 Z=9500.781)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [113]
+ |   |   |   |- Guid:EFF89CD54CAE03D5F9E8A3BA7E44D7D4 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_047C16A8CCE6FE2902_1241385537 Label:PointLight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4264.449 Y=-3845.551 Z=-505.551), Max=(X=5315.551 Y=-2794.449 Z=545.551) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |   |   |- [+] [114]
+ |   |   |   |- Guid:F0A904654C53DF0C93AC33898C3D9E5C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a1ce7b0f Label:HLOD0_Instancing/OpenWorld_MainGrid_0_-2_0_0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=-50400.000 Z=0.000), Max=(X=25200.000 Y=-25200.000 Z=1064.062) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [115]
+ |   |   |   |- Guid:F0F7E2E64BFE1EB02D08A3B1C6211099 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000009b09b3f1 Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=75600.000 Z=8503.906), Max=(X=-75600.000 Y=100800.000 Z=13463.281) Runtime:IsValid=true, Min=(X=-100800.000 Y=75600.000 Z=8263.281), Max=(X=-75600.000 Y=100800.000 Z=13605.469)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [116]
+ |   |   |   |- Guid:F1FC060F4344231AD866A3934A1C3A8E BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6BD2902_1843742056 Label:Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5593.360 Y=-4452.500 Z=-570.015), Max=(X=8446.640 Y=-127.500 Z=550.015) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [117]
+ |   |   |   |- Guid:F2FF548E4272445FBF5E4083A26DF416 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e3561d3a Label:HLOD0_Instancing/OpenWorld_MainGrid_2_-2_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=50400.000 Y=-50400.000 Z=3310.156), Max=(X=75600.000 Y=-25200.000 Z=11582.031) Runtime:IsValid=true, Min=(X=50400.000 Y=-50400.000 Z=3310.156), Max=(X=75600.000 Y=-25200.000 Z=11691.406)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [118]
+ |   |   |   |- Guid:FAD653E7442C7F470EC2BEBA0BB3F6D6 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000009ef014e Label:HLOD0_Instancing/OpenWorld_MainGrid_-4_-4_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=7688.281), Max=(X=-75600.000 Y=-75600.000 Z=11978.906) Runtime:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=7269.531), Max=(X=-75600.000 Y=-75600.000 Z=12157.031)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [119]
+ |   |   |   |- Guid:FC48EF694B253C77732A649FFCDE6D12 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000006f64a2d2 Label:HLOD0_Instancing/OpenWorld_MainGrid_0_3_0_0 SpatiallyLoaded:0 Bounds:(Editor:IsValid=true, Min=(X=0.000 Y=75600.000 Z=2105.469), Max=(X=25200.000 Y=100800.000 Z=6055.469) Runtime:IsValid=true, Min=(X=0.000 Y=75600.000 Z=2080.469), Max=(X=25200.000 Y=100800.000 Z=6055.469)) RuntimeGrid:MainGrid:HLOD0_Instancing EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [120]
+ |   |   |   |- Guid:FDFCEED34EAABBEE0F0D158388E6739B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C16A8CCE6FD2902_2018343355 Label:Cube9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=8002.422 Y=-5727.500 Z=327.364), Max=(X=8177.578 Y=-152.500 Z=472.636) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/Base FolderGuid:EEA3C5174871D8E15E824A85001CB021
+ |   |   |- [+] [121]
+ |   |   |   |- Guid:FE5AFF8943D8CF088796AF9C4C455D11 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_047C16A8CCE6FE2902_1124392535 Label:SpotLight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=4347.483 Y=-2752.517 Z=-605.033), Max=(X=5852.517 Y=-1247.483 Z=900.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Concert Hall/StageLights FolderGuid:0B3A519C4D1BE618E767E2878C4D8D7B
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=true, Min=(X=-6388.221 Y=-14718.221 Z=-20866.442), Max=(X=19228.221 Y=9548.221 Z=2570.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/1P
+----------------------------------------------------------------------------------------------------------------
+1P - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of 1P Persistent Level
+ |- Always loaded Actor Count: 72 
+ |- Actor Path: /Game/1P.1P:PersistentLevel.DirectionalLight_UAID_A85E45CFE40401D200_1470382761
+ |- Actor Package: /Game/__ExternalActors__/1P/C/28/JZBD3EKTFUGLBG53GHGMBD
+ |- Actor Path: /Game/1P.1P:PersistentLevel.ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763
+ |- Actor Package: /Game/__ExternalActors__/1P/1/07/1TEXAC72VDZMLWTOXVB2IO
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000025ab023
+ |- Actor Package: /Game/__ExternalActors__/1P/7/66/S31DOXSQDV7UTUJEQTCNKD
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_0000000007447602
+ |- Actor Package: /Game/__ExternalActors__/1P/F/03/I451LDGUXAQXUIO2962E00
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_0000000009ef014e
+ |- Actor Package: /Game/__ExternalActors__/1P/6/54/X6E7FNP55KY09JX674LGD1
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000000abadc8a
+ |- Actor Package: /Game/__ExternalActors__/1P/9/0N/013TY19VWRZYUGMV7MZL50
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000000f202552
+ |- Actor Package: /Game/__ExternalActors__/1P/3/YI/BD7WC034YJWSFXSRTAZEI7
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000125f4854
+ |- Actor Package: /Game/__ExternalActors__/1P/4/XZ/7DSFNFCPD7N4S0YZYQ84C5
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_0000000014fcb629
+ |- Actor Package: /Game/__ExternalActors__/1P/C/6U/AAEYVR6B9EHABCPSQFXKPR
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000001aad9091
+ |- Actor Package: /Game/__ExternalActors__/1P/6/0D/PB2ZLW3K31LBPHLLWHI5J2
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000001bc22ef1
+ |- Actor Package: /Game/__ExternalActors__/1P/0/KY/DBYAPNYTFQVC3KBBZ4EN7G
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000001c4e2f77
+ |- Actor Package: /Game/__ExternalActors__/1P/7/UQ/BLBVROC2MOHZ1KKPH72SO2
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000003183c5a3
+ |- Actor Package: /Game/__ExternalActors__/1P/E/17/07I9Y3R6YB8P7LL0SZC7AQ
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_0000000032084f09
+ |- Actor Package: /Game/__ExternalActors__/1P/B/0D/EQUM6J1VQS2MJBQCLJH2BS
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_0000000037fedcc7
+ |- Actor Package: /Game/__ExternalActors__/1P/D/A3/WGAXMVDX0GYA5PAPB61ILE
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000003948efd7
+ |- Actor Package: /Game/__ExternalActors__/1P/B/VQ/OH9GTXKTIP62ZSJQ3XZB0G
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_0000000040c4c889
+ |- Actor Package: /Game/__ExternalActors__/1P/F/3T/140COTJRQFVSSXCZVMTS82
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_0000000042255354
+ |- Actor Package: /Game/__ExternalActors__/1P/6/MF/R93RJ4N973UXC5D5YR2IP5
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000004914b23f
+ |- Actor Package: /Game/__ExternalActors__/1P/3/EQ/7OLV1J1LKK45BUKVJ1H6UG
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000004e4e8cb1
+ |- Actor Package: /Game/__ExternalActors__/1P/8/UT/ENLVCFE8KYZH039QO82GWY
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000004e80c166
+ |- Actor Package: /Game/__ExternalActors__/1P/E/OD/EQH0P2S1RYKNQ16T47WLQX
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_0000000055c0ccaa
+ |- Actor Package: /Game/__ExternalActors__/1P/E/RZ/TKC6L58JKYX3W23A40LNN2
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000570d97fa
+ |- Actor Package: /Game/__ExternalActors__/1P/2/O5/309E1ZJINIPRG43U5E6RUR
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000595af4d3
+ |- Actor Package: /Game/__ExternalActors__/1P/3/VD/DWOAN3H4ZK9DX52DVLFREU
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000653a6479
+ |- Actor Package: /Game/__ExternalActors__/1P/2/Y1/YARUL66LM64X8MJJWBWG9H
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000675ef2fd
+ |- Actor Package: /Game/__ExternalActors__/1P/5/NK/O1F17DB9E877RK57YWNVGM
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_0000000068ccf59d
+ |- Actor Package: /Game/__ExternalActors__/1P/9/VR/VE1OW5XN5BJ6A63O39UTG3
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000006933a81d
+ |- Actor Package: /Game/__ExternalActors__/1P/B/PJ/5C01PNMFSKTVLEGYUUW8ZL
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000006e5123fa
+ |- Actor Package: /Game/__ExternalActors__/1P/A/RZ/3SVFVBEL6JAKXJWK4G7WXE
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000006f64a2d2
+ |- Actor Package: /Game/__ExternalActors__/1P/0/IA/V5L37JGHMJXU61NLSPQIG6
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000006f681083
+ |- Actor Package: /Game/__ExternalActors__/1P/2/86/4HP20VO7Q0ORD8CE5LO9N1
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000008b5644b9
+ |- Actor Package: /Game/__ExternalActors__/1P/A/MP/PGNA7EPHSZWOBE10S61F9X
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000008cf7d23e
+ |- Actor Package: /Game/__ExternalActors__/1P/6/TV/Q49D2RQIGM6H75MU5CLK50
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_0000000092f62c1e
+ |- Actor Package: /Game/__ExternalActors__/1P/C/0W/MJBOIRMJPX8BR88OA9HEQZ
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000009b09b3f1
+ |- Actor Package: /Game/__ExternalActors__/1P/7/SL/TJUG1WHHROLWDQCS9856RK
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_000000009f421c4b
+ |- Actor Package: /Game/__ExternalActors__/1P/C/NG/SC1BUHPJSTGUU7OTQL1AIY
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000a1ce7b0f
+ |- Actor Package: /Game/__ExternalActors__/1P/F/2P/OT372DKZN125KWLC3K0PWU
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000a37177dd
+ |- Actor Package: /Game/__ExternalActors__/1P/E/9X/W5F7NQ8HQOPTV4H3XDHZSM
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000a4bc834b
+ |- Actor Package: /Game/__ExternalActors__/1P/6/0L/99PB4TZCR3MN0HVVXQNDZD
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000a639b1e9
+ |- Actor Package: /Game/__ExternalActors__/1P/2/BN/4HE0WVU9X8FW1TXM0Z3MQN
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000a689a9ea
+ |- Actor Package: /Game/__ExternalActors__/1P/C/2F/4G3KR20MFZSD2VTLQ5XH93
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000a69d93d0
+ |- Actor Package: /Game/__ExternalActors__/1P/B/GM/ZQ9VSHE1JJ4XLEWSEOMSFQ
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000ac2bf045
+ |- Actor Package: /Game/__ExternalActors__/1P/6/YX/NAWSF73SHQDD5Y76PKPPOR
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000b1822120
+ |- Actor Package: /Game/__ExternalActors__/1P/2/XH/TZ0G017NDEAM8EX6LNAPCL
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000b44081de
+ |- Actor Package: /Game/__ExternalActors__/1P/0/Y2/WSHE0GH1X5NAO2D4LJZDAO
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000b65f63ff
+ |- Actor Package: /Game/__ExternalActors__/1P/0/ZS/G06OMK5O85KD9TZZL9C328
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000bb550923
+ |- Actor Package: /Game/__ExternalActors__/1P/9/EV/OE5MK5KWQOVJZONSO7OIJE
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000be6addd1
+ |- Actor Package: /Game/__ExternalActors__/1P/2/2A/TO9B3296DU09PAMCDX8SSH
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000c1bf9f53
+ |- Actor Package: /Game/__ExternalActors__/1P/B/27/MSJVSDEE29XTBTQOWALQS7
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000d31817fd
+ |- Actor Package: /Game/__ExternalActors__/1P/4/TZ/0NQGMIYLWSR1PQTVGLSY9W
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000d58aa934
+ |- Actor Package: /Game/__ExternalActors__/1P/3/ID/8FQYOHP7EYOATTCFDGFEUA
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000dde63563
+ |- Actor Package: /Game/__ExternalActors__/1P/B/E9/F9HVECDSMLERT3ZADZ0M5E
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000de0ce2c8
+ |- Actor Package: /Game/__ExternalActors__/1P/4/WF/C6R5AR1SIAEH7VDYFFH658
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000de8c0236
+ |- Actor Package: /Game/__ExternalActors__/1P/0/F2/U48HFPRD6F21IAUEBW4D7W
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000e0b604f2
+ |- Actor Package: /Game/__ExternalActors__/1P/5/5J/8SWF2LYJ1JBC30VKQZ7I5C
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000e2b76945
+ |- Actor Package: /Game/__ExternalActors__/1P/0/QO/VXE5QFJ08L8ERYAJ1NDMGM
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000e3561d3a
+ |- Actor Package: /Game/__ExternalActors__/1P/4/AV/566F5FYT9XV7LZ7EB2JFE3
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000e424783a
+ |- Actor Package: /Game/__ExternalActors__/1P/6/DS/2GHIA9WH5G3XZWWRLUUZMC
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000e7e7c686
+ |- Actor Package: /Game/__ExternalActors__/1P/8/CH/OUQA046JR702917Y2RKC8S
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000e96adb9f
+ |- Actor Package: /Game/__ExternalActors__/1P/7/U3/VEEWCI541QI98XLNU7EAUD
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000ea238fdb
+ |- Actor Package: /Game/__ExternalActors__/1P/1/GN/3M4BLKWQZLNYV588Z5NIZK
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000ea2f4463
+ |- Actor Package: /Game/__ExternalActors__/1P/6/TE/HU6A3CNK3FC78UQP2XS3OG
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000ef89df56
+ |- Actor Package: /Game/__ExternalActors__/1P/B/10/VLWSQFEKG70HA59F0BQF06
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000f2adc785
+ |- Actor Package: /Game/__ExternalActors__/1P/2/B2/DQ7MFILI23PB88NOZ9SAWT
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000f407ec03
+ |- Actor Package: /Game/__ExternalActors__/1P/E/BN/L0G2FJKAJTV4FRWYSODZFB
+ |- Actor Path: /Game/1P.1P:PersistentLevel.HLOD0_Instancing_00000000f4da60e5
+ |- Actor Package: /Game/__ExternalActors__/1P/9/KT/DLD9R7CG66DK1961VGX3NM
+ |- Actor Path: /Game/1P.1P:PersistentLevel.PlayerStart_UAID_F02F74551BF5599B01_1153002503
+ |- Actor Package: /Game/__ExternalActors__/1P/0/AU/8ORMILS3TVSULUK9598PFB
+ |- Actor Path: /Game/1P.1P:PersistentLevel.SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762
+ |- Actor Package: /Game/__ExternalActors__/1P/D/YY/IL8LJQB8LNYRJEX66NCSE4
+ |- Actor Path: /Game/1P.1P:PersistentLevel.SkyLight_UAID_A85E45CFE40401D200_1470380759
+ |- Actor Package: /Game/__ExternalActors__/1P/9/O3/J88UA1TX28C15RX5ZS2S0O
+ |- Actor Path: /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663
+ |- Actor Package: /Game/__ExternalActors__/1P/1/WW/TI5966CCSTSF8JPM38IYX8
+ |- Actor Path: /Game/1P.1P:PersistentLevel.VolumetricCloud_UAID_A85E45CFE40401D200_1470381760
+ |- Actor Package: /Game/__ExternalActors__/1P/F/5E/GLFR0G7GCO7VDBLTJZZ9T0
+ |- Actor Path: /Game/1P.1P:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/1P/0/JH/FJO8UH3Y7S1JLCFLK5S40Z
+
+----------------------------------------------------------------------------------------------------------------
+1P - Runtime Hash Set
+----------------------------------------------------------------------------------------------------------------
+[+] Content of Cell 1P_MainGrid_0_-1_0_0 (8T9P4CMQBOF4S88JYQNHMKCND)
+ |- Actor Count: 42
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6BD2902_1939477060
+ |   |-         Package: /Game/__ExternalActors__/1P/6/WG/A9Z4AX64GO1RSLD2GKNVIL
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 0295F529418D4C2020DCE3AB2D885006
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284985334
+ |   |-         Package: /Game/__ExternalActors__/1P/6/4A/6ZQR8Q6OWWQOS0RZPZB7VO
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 037858414826B4B461381BBDF7016EFF
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_7085C2C84A1A231D02_2109939280
+ |   |-         Package: /Game/__ExternalActors__/1P/4/JY/UKMFXO9N04AGZRSKWAP80V
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 05A2FD4D4EB3549F2B984587C838660C
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.PointLight_UAID_047C16A8CCE6FE2902_1268069540
+ |   |-         Package: /Game/__ExternalActors__/1P/D/IU/ME6OHZCNYQ1FAL6P06KMSQ
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 073CB573462E5A472340108A561F45DF
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6102F02_1898246945
+ |   |-         Package: /Game/__ExternalActors__/1P/4/VL/YIXBL6N67EAV9KR7YMAZ7C
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 0CCF58F74AD2B1B4847A16B2414EB3D8
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284984333
+ |   |-         Package: /Game/__ExternalActors__/1P/B/FZ/GU40A6YEM5B0BEGHPOFRJU
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 106042DC44454CE2001023B196E6AB3E
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1557573354
+ |   |-         Package: /Game/__ExternalActors__/1P/4/8G/41MK9OJSE7MDUTROGEJH6P
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 13640E764059E491BC4FE9B7A3480B53
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6102F02_1865762944
+ |   |-         Package: /Game/__ExternalActors__/1P/8/8V/YYODB1Y78WDZXE4RIL465E
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 2DC631FA449EE1138C13EFBF84029F1D
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284982328
+ |   |-         Package: /Game/__ExternalActors__/1P/D/FU/99L3WE3T1P4FV7VLKNR3SZ
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 37E72AEB42A5E3AEB5806EB783E53A28
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_2097694358
+ |   |-         Package: /Game/__ExternalActors__/1P/C/IH/VCCDLZ8TK953U3HVX0BSR8
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 380E598A49A0D25D300AF2AFF0C981EC
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284983331
+ |   |-         Package: /Game/__ExternalActors__/1P/8/TX/8YXFV6X9GI9K0SZW5EXSCO
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 492241CE4FDD768DF69FADB5CF503CCC
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284977321
+ |   |-         Package: /Game/__ExternalActors__/1P/C/EU/RN1FXDVWWXFCEWBF4P9ZIB
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 532CAF4E40E03E68DC0E87AB98E84C66
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284981327
+ |   |-         Package: /Game/__ExternalActors__/1P/6/JC/19VZWQ1XVMLSZ6DP8XPC4O
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 55A4044944B4D4840EE4FA9D095EE323
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6BF2902_1209353420
+ |   |-         Package: /Game/__ExternalActors__/1P/E/HG/XGPITZVIQZL86BAKZ3VAOO
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 5AC20F8D4B8119DC06DB5087363A2393
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284979324
+ |   |-         Package: /Game/__ExternalActors__/1P/A/YO/D5JM5RJ7SLFXV6RDVXW1TH
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 5F6DC1094E76CC43135F0293F27698A5
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284976320
+ |   |-         Package: /Game/__ExternalActors__/1P/4/8L/35WSFVX4DUCG9NLPYB4M5R
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 67C01C3E407BB57E17B677A5224B12A0
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.PointLight_UAID_047C16A8CCE6FE2902_1259733538
+ |   |-         Package: /Game/__ExternalActors__/1P/A/X9/FYGDTGZLIOG3OKWJTOHY1D
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 72AA0D3742217665C5E6628D76EE66F8
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.PointLight_UAID_047C16A8CCE6FE2902_1282090543
+ |   |-         Package: /Game/__ExternalActors__/1P/D/2P/00SILCDP14U4Y1SUHVECG5
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 750FDC8844DDCB96C9305AA936653435
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.PointLight_UAID_047C16A8CCE6FE2902_1262099539
+ |   |-         Package: /Game/__ExternalActors__/1P/8/P2/FZTATA5MHLHCEJTE3Q0N70
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 754D81D9449786DA11CB52B8A7141937
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1545679353
+ |   |-         Package: /Game/__ExternalActors__/1P/7/B8/O2AX7L9LL0FV17OQALKWRZ
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 77FE443E43F89859C253D09DD40CC5E3
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284978323
+ |   |-         Package: /Game/__ExternalActors__/1P/0/CE/U0OIK10XFEBOO08NJUE1FI
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 83CB76254D67CA83BD90CEBAA5CB2F10
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6BD2902_1917247059
+ |   |-         Package: /Game/__ExternalActors__/1P/E/CB/KWEADYZWN4OU4VLYKUYYT0
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 8A38E1394FFBB056D2E3D4A7C10AC8C0
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284983330
+ |   |-         Package: /Game/__ExternalActors__/1P/B/J4/OW5IIIIGRP4BKXLPVA13I9
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 8BC8272F479457AAB05D4C9A6BCF3FB6
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.PointLight_UAID_047C16A8CCE6FE2902_1277953542
+ |   |-         Package: /Game/__ExternalActors__/1P/5/NH/9O9M1B4AQ10ABHV5E7OFB3
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 8F209B4D405836925AC2938705BDBD13
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284974319
+ |   |-         Package: /Game/__ExternalActors__/1P/2/BK/37NQGWXRILLXVP1W4WSWP6
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 980FA7524C6275366C3DF99965C6B8BE
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.Drum_ProgressBar_C_UAID_047C16A8CCE6D52C02_1888273447
+ |   |-         Package: /Game/__ExternalActors__/1P/A/NH/UD76V2RC31WH7EFW4PA1OV
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: A28F5E0C414833DF06C344BD3C6661EF
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.BP_SerialCom_v4_UE510_C_UAID_60189575E8DAE03402_2048220832
+ |   |-         Package: /Game/__ExternalActors__/1P/2/3X/7HB350IE1PS7IUSX2U82VZ
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: A4BC3AA749187B0090BB86AF3126C56B
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284980326
+ |   |-         Package: /Game/__ExternalActors__/1P/E/5Y/3IEDRERVI7V766QAPMD98I
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: AA30C0634C8D61321C6912B3DFCDC4E6
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284978322
+ |   |-         Package: /Game/__ExternalActors__/1P/4/FM/VKUUO5R3JBKUXV5S3E02A0
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: B55232CC4E15F039B09B6CAA57E9393B
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284982329
+ |   |-         Package: /Game/__ExternalActors__/1P/4/20/Z8HQV2TN1J9VV5FBITJGGC
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: B7D8DCF64BD2C3F97D7447AA6B4DFEDB
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_2044078356
+ |   |-         Package: /Game/__ExternalActors__/1P/B/FT/BMIPMAEOGAVSO54RUS6VGK
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: BD9A46884FD3348E3F2789AB5619B270
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284984332
+ |   |-         Package: /Game/__ExternalActors__/1P/B/64/A62SUIBV33P6Q5MUKMZJ7B
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: CB6ED67F4A3B325BC7D7B985CFBB7F76
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_48F17F8EB3A8CA2E02_1673852623
+ |   |-         Package: /Game/__ExternalActors__/1P/7/FT/HKIABNO8FNV0A8009GQOEH
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: CECD91E640128892CB404985C6A46D12
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.SpotLight_UAID_047C16A8CCE6FE2902_1183004536
+ |   |-         Package: /Game/__ExternalActors__/1P/6/CS/ZW943184EWY8VT972Y7ANP
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: D264068C49034DECD8B9C994FD93C442
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284986335
+ |   |-         Package: /Game/__ExternalActors__/1P/8/YS/J30LTXWGO5AO3MBKZTXFC7
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: D6135FA5422028B0A554EDB73E530CC1
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_1284980325
+ |   |-         Package: /Game/__ExternalActors__/1P/8/1R/SONXUCO5II6R7LPX0VU5ZW
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: D6AFB52045385D3293B97C9A10B46918
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6BD2902_1900631057
+ |   |-         Package: /Game/__ExternalActors__/1P/0/O8/WPAK88LV4LX9X0L0WGNHH6
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: D931AEAA46B1A1B00FB70B9FD62A7041
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.Beat_C_UAID_7085C2C84A1A261D02_1172326812
+ |   |-         Package: /Game/__ExternalActors__/1P/6/QK/YE66C76R6FXOH6X9FMQ3WX
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: D9E3C8804F0145210EE5F6BBC43F44C4
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6102F02_1774895943
+ |   |-         Package: /Game/__ExternalActors__/1P/3/8L/LJGMJUIHG1KKN8UA6KG8SC
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: E41E0743409B21EFEDD49FBD61FCE022
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.PointLight_UAID_047C16A8CCE6FE2902_1241385537
+ |   |-         Package: /Game/__ExternalActors__/1P/4/F1/YZES8UG9S96K2Q2AV3OZSW
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: EFF89CD54CAE03D5F9E8A3BA7E44D7D4
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_2018343355
+ |   |-         Package: /Game/__ExternalActors__/1P/4/SF/RONMKD6W1L1YLG7L7MGUAA
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: FDFCEED34EAABBEE0F0D158388E6739B
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.SpotLight_UAID_047C16A8CCE6FE2902_1124392535
+ |   |-         Package: /Game/__ExternalActors__/1P/6/RV/8LIFLM3J0PIH374GW0NK89
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: FE5AFF8943D8CF088796AF9C4C455D11
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell 1P_MainGrid_0_-1_-1_0 (D16NINZLSUUJQPRDK9W6ZA73F)
+ |- Actor Count: 8
+ |- [+] /Game/1P.1P:PersistentLevel.SpotLight_UAID_047C16A8CCE6082A02_1147169255
+ |   |-         Package: /Game/__ExternalActors__/1P/A/GM/R70NRHUWJTIT21VLQ5GG8G
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 2FD0D1A04038219FB3FD60A89FDFB7F3
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6BD2902_1794763055
+ |   |-         Package: /Game/__ExternalActors__/1P/E/IC/98G8FHGF3CN5N18MLXHN1Q
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 51C79B3C4CB7110A7BAF2BB705A09CCF
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.MusicHandler_C_UAID_60189575E8DA923002_2082124879
+ |   |-         Package: /Game/__ExternalActors__/1P/3/CF/GFFNG5YYND8Z59BKQ956AB
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 7D9B3C7B4049B0A690D3C4BAA4126438
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.SpotLight_UAID_047C16A8CCE6AE2A02_1195517471
+ |   |-         Package: /Game/__ExternalActors__/1P/7/32/ARSMT7CFVUJEFQL0IKNYAH
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: B285AC9042CD50C720D0AEA0101CFA49
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6BD2902_1965382062
+ |   |-         Package: /Game/__ExternalActors__/1P/C/1I/GGJ12V8OW8RMKEZGRHH9X0
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: C0FFE4294661072F85F91DAF41BCF35B
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6FD2902_2048456357
+ |   |-         Package: /Game/__ExternalActors__/1P/A/OE/OTP4AFYLM2A2YXW34KUWA3
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: C430253847D61E34AC2C93B8854ECC54
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.SpotLight_UAID_047C16A8CCE6AE2A02_1201613472
+ |   |-         Package: /Game/__ExternalActors__/1P/E/NY/JH10E8QLX6C5I31RBK9NBO
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: DCF148DA40E227794F3366862D1228A7
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/1P.1P:PersistentLevel.StaticMeshActor_UAID_047C16A8CCE6BD2902_1843742056
+ |   |-         Package: /Game/__ExternalActors__/1P/5/J4/ULEX0ZGE6DXYAIQUMTO4NK
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: F1FC060F4344231AD866A3934A1C3A8E
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+
