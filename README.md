@@ -5,4 +5,4 @@ possible, especailly those for the visually impaired.
 
 This game was made in Unreal Engine 5 and uses an Arduino Plugin for an accessible controller.
 
-Devs: JC Ho, Nick Clohessy, Huynh
+Devs: JC Ho, Nick Clohessy, Kayla Huynh
